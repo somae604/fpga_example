@@ -1,0 +1,88 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4_63036 (win64) Build 1071353 Tue Nov 18 18:29:27 MST 2014
+| Date         : Mon Feb 23 11:01:27 2015
+| Host         : huins-PC running 64-bit major release  (build 7600)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7z020
+------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    35 |
+| Minimum Number of register sites lost to control set restrictions |    96 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              53 |           28 |
+| No           | No                    | Yes                    |              31 |           19 |
+| No           | Yes                   | No                     |             121 |           52 |
+| Yes          | No                    | No                     |               5 |            4 |
+| Yes          | No                    | Yes                    |             122 |           41 |
+| Yes          | Yes                   | No                     |             316 |          118 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+------------------+----------------+
+|                          Clock Signal                         |                                                Enable Signal                                               |                            Set/Reset Signal                           | Slice Load Count | Bel Load Count |
++---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+------------------+----------------+
+|  TFTLCD_CLK_IBUF_BUFG                                         |                                                                                                            | TFTLCDCtrl_i/f_BRAMCtrl/AR[0]                                         |                1 |              1 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 |                                                                                                            | usystem_wrapper/O21                                                   |                1 |              1 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 |                                                                                                            | usystem_wrapper/O22                                                   |                2 |              2 |
+|  TFTLCDCtrl_i/b_horizontal/O5                                 |                                                                                                            | TFTLCDCtrl_i/c_vertical/O5                                            |                1 |              3 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 |                                                                                                            | usystem_wrapper/system_i/proc_sys_reset/U0/EXT_LPF/lpf_int            |                2 |              4 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | usystem_wrapper/system_i/axi_ahblite_bridge_0/U0/AHB_MSTR_IF_MODULE/n_0_FSM_sequential_ahb_wr_rd_cs[3]_i_1 | usystem_wrapper/system_i/axi_ahblite_bridge_0/U0/AXI_SLV_IF_MODULE/O2 |                4 |              4 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | usystem_wrapper/system_i/axi_ahblite_bridge_1/U0/AHB_MSTR_IF_MODULE/n_0_FSM_sequential_ahb_wr_rd_cs[3]_i_1 | usystem_wrapper/system_i/axi_ahblite_bridge_1/U0/AXI_SLV_IF_MODULE/O2 |                2 |              4 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | AHB2PORT1RAM_i/n_0_bufferram_i_i_6                                                                         |                                                                       |                4 |              5 |
+|  TFTLCD_TCLK_OBUF_BUFG                                        |                                                                                                            |                                                                       |                2 |              5 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | usystem_wrapper/system_i/proc_sys_reset/U0/SEQ/seq_cnt_en                                                  | usystem_wrapper/system_i/proc_sys_reset/U0/SEQ/SEQ_COUNTER/clear      |                1 |              6 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | usystem_wrapper/system_i/axi_ahblite_bridge_0/U0/AHB_MSTR_IF_MODULE/n_0_wrap_brst_count[7]_i_1             | usystem_wrapper/system_i/axi_ahblite_bridge_0/U0/AXI_SLV_IF_MODULE/O2 |                2 |              8 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | usystem_wrapper/system_i/axi_ahblite_bridge_1/U0/AHB_MSTR_IF_MODULE/n_0_wrap_brst_count[7]_i_1             | usystem_wrapper/system_i/axi_ahblite_bridge_1/U0/AXI_SLV_IF_MODULE/O2 |                2 |              8 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | usystem_wrapper/system_i/axi_ahblite_bridge_1/U0/AHB_MSTR_IF_MODULE/m_ahb_htrans[1]                        | usystem_wrapper/O21                                                   |                4 |              9 |
+|  TFTLCDCtrl_i/b_horizontal/O1                                 |                                                                                                            | TFTLCDCtrl_i/f_BRAMCtrl/AR[0]                                         |                6 |             11 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | usystem_wrapper/system_i/axi_ahblite_bridge_0/U0/AXI_SLV_IF_MODULE/rd_request                              | usystem_wrapper/system_i/axi_ahblite_bridge_0/U0/AXI_SLV_IF_MODULE/O2 |                3 |             12 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | usystem_wrapper/system_i/axi_ahblite_bridge_0/U0/AXI_SLV_IF_MODULE/wr_addr_ready_sm                        | usystem_wrapper/system_i/axi_ahblite_bridge_0/U0/AXI_SLV_IF_MODULE/O2 |                6 |             12 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | usystem_wrapper/system_i/axi_ahblite_bridge_1/U0/AXI_SLV_IF_MODULE/rd_request                              | usystem_wrapper/system_i/axi_ahblite_bridge_1/U0/AXI_SLV_IF_MODULE/O2 |                5 |             12 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | usystem_wrapper/system_i/axi_ahblite_bridge_1/U0/AXI_SLV_IF_MODULE/wr_addr_ready_sm                        | usystem_wrapper/system_i/axi_ahblite_bridge_1/U0/AXI_SLV_IF_MODULE/O2 |                4 |             12 |
+|  TFTLCD_TCLK_OBUF_BUFG                                        | TFTLCDCtrl_i/c_vertical/E[0]                                                                               | TFTLCDCtrl_i/f_BRAMCtrl/AR[0]                                         |                4 |             13 |
+|  TFTLCD_TCLK_OBUF_BUFG                                        | TFTLCDCtrl_i/f_BRAMCtrl/n_0_hcnt[0]_i_1                                                                    | TFTLCDCtrl_i/f_BRAMCtrl/AR[0]                                         |                4 |             14 |
+|  TFTLCD_TCLK_OBUF_BUFG                                        |                                                                                                            | TFTLCDCtrl_i/f_BRAMCtrl/AR[0]                                         |                9 |             16 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | usystem_wrapper/system_i/axi_ahblite_bridge_1/U0/AXI_SLV_IF_MODULE/n_0_axi_prot[2]_i_1                     | usystem_wrapper/system_i/axi_ahblite_bridge_1/U0/AXI_SLV_IF_MODULE/O2 |                6 |             19 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | usystem_wrapper/E[0]                                                                                       | usystem_wrapper/O22                                                   |                7 |             22 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | usystem_wrapper/system_i/axi_ahblite_bridge_0/U0/AXI_SLV_IF_MODULE/n_0_axi_prot[2]_i_1                     | usystem_wrapper/system_i/axi_ahblite_bridge_0/U0/AXI_SLV_IF_MODULE/O2 |                7 |             27 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | usystem_wrapper/system_i/axi_ahblite_bridge_0/U0/AHB_MSTR_IF_MODULE/send_wr_data                           | usystem_wrapper/system_i/axi_ahblite_bridge_0/U0/AXI_SLV_IF_MODULE/O2 |               15 |             32 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | usystem_wrapper/system_i/axi_ahblite_bridge_0/U0/AXI_SLV_IF_MODULE/n_0_S_AXI_RDATA[31]_i_1                 | usystem_wrapper/system_i/axi_ahblite_bridge_0/U0/AXI_SLV_IF_MODULE/O2 |               15 |             32 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | usystem_wrapper/system_i/axi_ahblite_bridge_0/U0/AXI_SLV_IF_MODULE/write_ready_sm                          | usystem_wrapper/system_i/axi_ahblite_bridge_0/U0/AXI_SLV_IF_MODULE/O2 |               10 |             32 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | usystem_wrapper/system_i/axi_ahblite_bridge_1/U0/AHB_MSTR_IF_MODULE/send_wr_data                           | usystem_wrapper/system_i/axi_ahblite_bridge_1/U0/AXI_SLV_IF_MODULE/O2 |                9 |             32 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | register_set_1/n_0_curr_reg0[31]_i_1                                                                       | usystem_wrapper/O21                                                   |               11 |             32 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | register_set_1/n_0_curr_reg1[31]_i_1                                                                       | usystem_wrapper/O21                                                   |               11 |             32 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | usystem_wrapper/system_i/axi_ahblite_bridge_1/U0/AXI_SLV_IF_MODULE/n_0_S_AXI_RDATA[31]_i_1                 | usystem_wrapper/system_i/axi_ahblite_bridge_1/U0/AXI_SLV_IF_MODULE/O2 |               14 |             32 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 | usystem_wrapper/system_i/axi_ahblite_bridge_1/U0/AXI_SLV_IF_MODULE/write_ready_sm                          | usystem_wrapper/system_i/axi_ahblite_bridge_1/U0/AXI_SLV_IF_MODULE/O2 |               13 |             32 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 |                                                                                                            |                                                                       |               27 |             49 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 |                                                                                                            | usystem_wrapper/system_i/axi_ahblite_bridge_1/U0/AXI_SLV_IF_MODULE/O2 |               18 |             53 |
+|  usystem_wrapper/system_i/processing_system7_0/inst/FCLK_CLK0 |                                                                                                            | usystem_wrapper/system_i/axi_ahblite_bridge_0/U0/AXI_SLV_IF_MODULE/O2 |               31 |             61 |
++---------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+------------------+----------------+
+
+

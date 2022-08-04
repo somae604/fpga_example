@@ -1,0 +1,6 @@
+17:06:10 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+
+17:06:10 Build Finished (took 168ms)
+

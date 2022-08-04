@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4_63036 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed Feb 25 13:26:13 2015
+# Process ID: 6128
+# Log file: D:/FINISH/ch14_pl_ascii/ch14_pl_ascii.runs/synth_1/CHAR_TOP.vds
+# Journal file: D:/FINISH/ch14_pl_ascii/ch14_pl_ascii.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source CHAR_TOP.tcl

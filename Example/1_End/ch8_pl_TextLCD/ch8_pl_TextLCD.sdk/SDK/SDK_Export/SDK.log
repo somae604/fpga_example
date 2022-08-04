@@ -1,0 +1,31 @@
+11:49:22.652 INFO  - Processing command line option -hwspec D:/work_edu/ch8_pl_TextLCD/ch8_pl_TextLCD.sdk/SDK/SDK_Export/hw/system.xml. 
+11:51:01.622 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: 
+    Could not find a ARM device on the board. Please check if the target is in:
+     1. Split JTAG mode - No operations are possible with ARM DAP
+     2. Non Jtag bootmode - Bootrom may need time to enable DAP. Please try again
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+11:54:57.396 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+11:55:31.976 INFO  - Processing command line option -hwspec D:/work_edu/ch8_pl_TextLCD/ch8_pl_TextLCD.sdk/SDK/SDK_Export/hw/system.xml. 
+11:55:32.165 INFO  - The hardware specification for project 'hw_platform_0' is different from D:/work_edu/ch8_pl_TextLCD/ch8_pl_TextLCD.sdk/SDK/SDK_Export/hw/system.xml. 
+11:55:32.368 INFO  - Copied contents of D:/work_edu/ch8_pl_TextLCD/ch8_pl_TextLCD.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+11:55:32.375 INFO  - Copied contents of D:\work_edu\ch8_pl_TextLCD\ch8_pl_TextLCD.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+11:55:32.376 INFO  - Copied contents of D:\work_edu\ch8_pl_TextLCD\ch8_pl_TextLCD.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+11:55:32.423 INFO  - Copied contents of D:\work_edu\ch8_pl_TextLCD\ch8_pl_TextLCD.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+11:55:32.424 INFO  - Copied contents of D:\work_edu\ch8_pl_TextLCD\ch8_pl_TextLCD.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+11:55:32.428 INFO  - Copied contents of D:\work_edu\ch8_pl_TextLCD\ch8_pl_TextLCD.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+11:55:32.489 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+11:55:46.860 INFO  - Updating hardware inferred compiler options for HelloWorld. 
+11:55:46.891 INFO  - Clearing existing target manager status. 
+11:55:49.093 INFO  - Closing and re-opening the MSS file of ther project HelloWorld_bsp 
+11:55:51.167 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+11:57:16.611 INFO  - FPGA configured successfully with bitstream "D:/work_edu/ch8_pl_TextLCD/ch8_pl_TextLCD.runs/impl_1/system_wrapper.bit" 
+11:57:34.582 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:57:34.691 INFO  - PS initialization will be done as it is not done before. 
+11:57:34.691 INFO  - Running PS initialization.... 
+11:57:35.159 INFO  - ps7_init is completed. 
+11:57:35.268 INFO  - PS Initialization is complete. 
+11:57:50.690 INFO  - Processor reset is completed for ps7_cortexa9_0 

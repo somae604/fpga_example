@@ -1,0 +1,6 @@
+10:53:59 **** Incremental Build of configuration Debug for project TextlcdApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+
+10:53:59 Build Finished (took 151ms)
+

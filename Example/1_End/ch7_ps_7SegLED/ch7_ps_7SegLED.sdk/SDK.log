@@ -1,0 +1,141 @@
+19:26:45 INFO  : Processing command line option -hwspec D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top.hdf.
+19:26:51 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+19:26:59 INFO  : Saving repository preferences.
+19:26:59 INFO  : Reading in cores from local repositories: 
+		 D:\FINISH\ch7_ps_7SegLED\sevenseg_1.0
+19:26:59 INFO  : Cleaning BSP projects in the workspace.
+19:28:02 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+19:28:10 INFO  : ps7_init is completed.
+19:28:10 INFO  : ps7_post_config is completed.
+19:28:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:28:53 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:28:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:29:16 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+19:29:24 INFO  : ps7_init is completed.
+19:29:25 INFO  : ps7_post_config is completed.
+19:29:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:29:49 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:01:07 INFO  : Processing command line option -hwspec D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top.hdf.
+21:01:08 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+21:01:09 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+21:01:10 INFO  : Restoring local repository preferences: 
+		 D:\FINISH\ch7_ps_7SegLED\sevenseg_1.0
+21:01:33 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+21:02:31 INFO  : ps7_init is completed.
+21:02:31 INFO  : ps7_post_config is completed.
+21:02:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:04:46 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+21:05:04 INFO  : ps7_init is completed.
+21:05:04 INFO  : ps7_post_config is completed.
+21:05:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:05:36 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+21:06:03 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+21:06:50 INFO  : ps7_init is completed.
+21:06:50 INFO  : ps7_post_config is completed.
+21:06:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:07:21 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+21:07:43 INFO  : ps7_init is completed.
+21:07:43 INFO  : ps7_post_config is completed.
+21:07:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:08:25 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+21:08:32 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:08:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:08:57 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+21:17:59 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+21:18:13 INFO  : ps7_init is completed.
+21:18:13 INFO  : ps7_post_config is completed.
+21:18:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:18:50 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+21:19:16 INFO  : ps7_init is completed.
+21:19:16 INFO  : ps7_post_config is completed.
+21:19:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:19:43 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+21:19:50 INFO  : ps7_init is completed.
+21:19:50 INFO  : ps7_post_config is completed.
+21:19:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:23:55 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+21:24:02 INFO  : ps7_init is completed.
+21:24:02 INFO  : ps7_post_config is completed.
+21:24:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:30:35 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+21:30:42 INFO  : ps7_init is completed.
+21:30:42 INFO  : ps7_post_config is completed.
+21:30:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:00:16 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:39:05 INFO  : Processing command line option -hwspec D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top.hdf.
+08:39:06 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+08:39:06 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+08:39:07 INFO  : Restoring local repository preferences: 
+		 D:\FINISH\ch7_ps_7SegLED\sevenseg_1.0
+08:44:25 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+08:44:33 INFO  : ps7_init is completed.
+08:44:33 INFO  : ps7_post_config is completed.
+08:44:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:45:08 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+08:45:14 INFO  : ps7_init is completed.
+08:45:14 INFO  : ps7_post_config is completed.
+08:45:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:06:03 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+09:06:11 INFO  : ps7_init is completed.
+09:06:11 INFO  : ps7_post_config is completed.
+09:06:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:06:31 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+09:06:36 INFO  : ps7_init is completed.
+09:06:36 INFO  : ps7_post_config is completed.
+09:06:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:06:55 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+09:07:00 INFO  : ps7_init is completed.
+09:07:00 INFO  : ps7_post_config is completed.
+09:07:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:07:22 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+09:07:28 INFO  : ps7_init is completed.
+09:07:28 INFO  : ps7_post_config is completed.
+09:07:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:07:54 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+09:07:59 INFO  : ps7_init is completed.
+09:07:59 INFO  : ps7_post_config is completed.
+09:07:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:08:42 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+09:08:50 INFO  : ps7_init is completed.
+09:08:50 INFO  : ps7_post_config is completed.
+09:08:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:10:57 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+09:11:06 INFO  : ps7_init is completed.
+09:11:06 INFO  : ps7_post_config is completed.
+09:11:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:11:15 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:11:24 INFO  : Processing command line option -hwspec D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top.hdf.
+09:11:25 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+09:11:26 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+09:11:26 INFO  : Restoring local repository preferences: 
+		 D:\FINISH\ch7_ps_7SegLED\sevenseg_1.0
+09:11:49 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+09:11:55 INFO  : ps7_init is completed.
+09:11:55 INFO  : ps7_post_config is completed.
+09:11:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:12:02 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:04:20 INFO  : Processing command line option -hwspec D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top.hdf.
+17:04:22 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+17:04:22 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+17:04:24 INFO  : Restoring local repository preferences: 
+		 D:\FINISH\ch7_ps_7SegLED\sevenseg_1.0
+17:04:38 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+17:04:45 INFO  : ps7_init is completed.
+17:04:45 INFO  : ps7_post_config is completed.
+17:04:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:05:01 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:05:09 INFO  : Processing command line option -hwspec D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top.hdf.
+17:05:11 INFO  : Checking for hwspec changes in the project top_hw_platform_0.
+17:05:11 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+17:05:13 INFO  : Restoring local repository preferences: 
+		 D:\FINISH\ch7_ps_7SegLED\sevenseg_1.0
+17:05:41 INFO  : FPGA configured successfully with bitstream "D:/FINISH/ch7_ps_7SegLED/ch7_ps_7SegLED.sdk/top_hw_platform_0/top.bit"
+17:06:13 INFO  : ps7_init is completed.
+17:06:13 INFO  : ps7_post_config is completed.
+17:06:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:07:32 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

@@ -1,0 +1,58 @@
+{
+   guistr: "# # String gsaved with Nlview 6.4.10  2014-10-02 bk=1.3207 VDI=35 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 480 -defaultsOSRD
+preplace port video0_reset -pg 1 -y 140 -defaultsOSRD
+preplace port cam0_pclk_div2 -pg 1 -y 120 -defaultsOSRD
+preplace port video0_out_vsync -pg 1 -y 170 -defaultsOSRD
+preplace port video0_out_hsync -pg 1 -y 150 -defaultsOSRD
+preplace port video0_in -pg 1 -y 100 -defaultsOSRD
+preplace port IIC_0 -pg 1 -y 520 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 500 -defaultsOSRD
+preplace port video0_out_de -pg 1 -y 110 -defaultsOSRD
+preplace port IIC_1 -pg 1 -y 540 -defaultsOSRD
+preplace port lcd_clk -pg 1 -y 560 -defaultsOSRD
+preplace portBus video0_out_data -pg 1 -y 130 -defaultsOSRD
+preplace inst v_axi4s_vid_out_0 -pg 1 -lvl 4 -y 170 -defaultsOSRD
+preplace inst axi_vdma_0 -pg 1 -lvl 2 -y 150 -defaultsOSRD
+preplace inst v_tc_1 -pg 1 -lvl 3 -y 180 -defaultsOSRD
+preplace inst axi_vdma_1 -pg 1 -lvl 2 -y 370 -defaultsOSRD
+preplace inst v_vid_in_axi4s_0 -pg 1 -lvl 1 -y 170 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 3 -y 500 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 2 -y 640 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 4 -y 530 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 4 1 1800
+preplace netloc pclk_div2_1 1 0 2 160 400 NJ
+preplace netloc v_axi4s_vid_out_0_vid_data 1 4 1 N
+preplace netloc axi_vdma_1_M_AXI_S2MM 1 2 1 880
+preplace netloc v_vid_in_axi4s_0_video_out 1 1 1 380
+preplace netloc axi_interconnect_1_M01_AXI 1 1 2 430 270 860
+preplace netloc v_tc_1_vblank_out 1 3 1 1270
+preplace netloc v_axi4s_vid_out_0_vid_hsync 1 4 1 N
+preplace netloc axi_vdma_0_M_AXI_MM2S 1 2 1 910
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 4 430 800 NJ 800 NJ 800 1760
+preplace netloc rst_1 1 0 1 N
+preplace netloc axi_vdma_0_M_AXIS_MM2S 1 2 2 NJ 40 N
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 4 400 260 930 680 NJ 680 1740
+preplace netloc processing_system7_0_IIC_0 1 4 1 1770
+preplace netloc v_axi4s_vid_out_0_vid_active_video 1 4 1 N
+preplace netloc axi_interconnect_1_M02_AXI 1 2 1 890
+preplace netloc v_tc_1_hblank_out 1 3 1 1250
+preplace netloc v_axi4s_vid_out_0_vtg_ce 1 2 3 930 50 NJ 360 1780
+preplace netloc processing_system7_0_FIXED_IO 1 4 1 1780
+preplace netloc axi_interconnect_0_M00_AXI 1 3 1 1250
+preplace netloc v_tc_1_active_video_out 1 3 1 1240
+preplace netloc v_tc_1_hsync_out 1 3 1 1260
+preplace netloc processing_system7_0_FCLK_CLK0 1 1 4 400 50 920 310 1300 350 1790
+preplace netloc axi_interconnect_1_M00_AXI 1 1 2 410 250 870
+preplace netloc processing_system7_0_FCLK_CLK1 1 1 4 420 480 940 350 1240 670 1750
+preplace netloc v_axi4s_vid_out_0_vid_vsync 1 4 1 N
+preplace netloc vid_io_in_1 1 0 1 N
+preplace netloc processing_system7_0_FCLK_CLK2 1 1 4 390 470 900 340 1260 660 1730
+preplace netloc v_tc_1_vsync_out 1 3 1 1290
+levelinfo -pg 1 140 270 680 1100 1520 1820
+",
+}
+{
+   da_ps7_cnt: "1",
+}

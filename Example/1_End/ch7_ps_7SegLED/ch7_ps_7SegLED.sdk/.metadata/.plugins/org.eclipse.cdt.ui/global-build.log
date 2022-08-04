@@ -1,0 +1,340 @@
+19:27:18 **** Build of project ClockApp_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sevenseg_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/sevenseg_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sevenseg_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/sevenseg_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sevenseg..."
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project ClockApp ****
+
+Nothing to build for project ClockApp
+19:27:34 **** Auto Build of configuration Debug for project ClockApp ****
+make all 
+'Building file: ../src/ClockApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ClockApp.o" -I../../ClockApp_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ClockApp.d" -MT"src/ClockApp.d" -o "src/ClockApp.o" "../src/ClockApp.c"
+'Finished building: ../src/ClockApp.c'
+' '
+'Building target: ClockApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ClockApp_bsp/ps7_cortexa9_0/lib -o "ClockApp.elf"  ./src/ClockApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ClockApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ClockApp.elf  |tee "ClockApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28768	   1168	  22628	  52564	   cd54	ClockApp.elf
+'Finished building: ClockApp.elf.size'
+' '
+19:27:46 **** Auto Build of configuration Debug for project ClockApp ****
+make all 
+'Building file: ../src/ClockApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ClockApp.o" -I../../ClockApp_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ClockApp.d" -MT"src/ClockApp.d" -o "src/ClockApp.o" "../src/ClockApp.c"
+'Finished building: ../src/ClockApp.c'
+' '
+'Building target: ClockApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ClockApp_bsp/ps7_cortexa9_0/lib -o "ClockApp.elf"  ./src/ClockApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ClockApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ClockApp.elf  |tee "ClockApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28768	   1168	  22628	  52564	   cd54	ClockApp.elf
+'Finished building: ClockApp.elf.size'
+' '
+19:28:08 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+19:28:53 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+19:29:23 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+21:02:28 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+21:05:02 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+21:05:31 **** Auto Build of configuration Debug for project ClockApp ****
+make all 
+'Building file: ../src/ClockApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ClockApp.o" -I../../ClockApp_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ClockApp.d" -MT"src/ClockApp.d" -o "src/ClockApp.o" "../src/ClockApp.c"
+'Finished building: ../src/ClockApp.c'
+' '
+'Building target: ClockApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ClockApp_bsp/ps7_cortexa9_0/lib -o "ClockApp.elf"  ./src/ClockApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ClockApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ClockApp.elf  |tee "ClockApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28768	   1168	  22628	  52564	   cd54	ClockApp.elf
+'Finished building: ClockApp.elf.size'
+' '
+21:06:47 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+21:07:41 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+21:08:12 **** Auto Build of configuration Debug for project ClockApp ****
+make all 
+'Building file: ../src/ClockApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ClockApp.o" -I../../ClockApp_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ClockApp.d" -MT"src/ClockApp.d" -o "src/ClockApp.o" "../src/ClockApp.c"
+../src/ClockApp.c: In function 'main':
+../src/ClockApp.c:121:6: warning: unused variable 'wait' [-Wunused-variable]
+  u16 wait;
+      ^
+'Finished building: ../src/ClockApp.c'
+' '
+'Building target: ClockApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ClockApp_bsp/ps7_cortexa9_0/lib -o "ClockApp.elf"  ./src/ClockApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ClockApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ClockApp.elf  |tee "ClockApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26132	   1168	  22628	  49928	   c308	ClockApp.elf
+'Finished building: ClockApp.elf.size'
+' '
+21:08:31 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+21:17:41 **** Auto Build of configuration Debug for project ClockApp ****
+make all 
+'Building file: ../src/ClockApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ClockApp.o" -I../../ClockApp_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ClockApp.d" -MT"src/ClockApp.d" -o "src/ClockApp.o" "../src/ClockApp.c"
+'Finished building: ../src/ClockApp.c'
+' '
+'Building target: ClockApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ClockApp_bsp/ps7_cortexa9_0/lib -o "ClockApp.elf"  ./src/ClockApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ClockApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ClockApp.elf  |tee "ClockApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26172	   1168	  22628	  49968	   c330	ClockApp.elf
+'Finished building: ClockApp.elf.size'
+' '
+21:18:10 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+21:19:13 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+21:19:28 **** Auto Build of configuration Debug for project ClockApp ****
+make all 
+'Building file: ../src/ClockApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ClockApp.o" -I../../ClockApp_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ClockApp.d" -MT"src/ClockApp.d" -o "src/ClockApp.o" "../src/ClockApp.c"
+'Finished building: ../src/ClockApp.c'
+' '
+'Building target: ClockApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ClockApp_bsp/ps7_cortexa9_0/lib -o "ClockApp.elf"  ./src/ClockApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ClockApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ClockApp.elf  |tee "ClockApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26172	   1168	  22628	  49968	   c330	ClockApp.elf
+'Finished building: ClockApp.elf.size'
+' '
+21:19:49 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+21:23:35 **** Auto Build of configuration Debug for project ClockApp ****
+make all 
+'Building file: ../src/ClockApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ClockApp.o" -I../../ClockApp_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ClockApp.d" -MT"src/ClockApp.d" -o "src/ClockApp.o" "../src/ClockApp.c"
+'Finished building: ../src/ClockApp.c'
+' '
+'Building target: ClockApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ClockApp_bsp/ps7_cortexa9_0/lib -o "ClockApp.elf"  ./src/ClockApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ClockApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ClockApp.elf  |tee "ClockApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28768	   1168	  22628	  52564	   cd54	ClockApp.elf
+'Finished building: ClockApp.elf.size'
+' '
+21:24:00 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+21:30:41 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+21:45:09 **** Auto Build of configuration Debug for project ClockApp ****
+make all 
+'Building file: ../src/ClockApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ClockApp.o" -I../../ClockApp_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ClockApp.d" -MT"src/ClockApp.d" -o "src/ClockApp.o" "../src/ClockApp.c"
+'Finished building: ../src/ClockApp.c'
+' '
+'Building target: ClockApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ClockApp_bsp/ps7_cortexa9_0/lib -o "ClockApp.elf"  ./src/ClockApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ClockApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ClockApp.elf  |tee "ClockApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26172	   1168	  22628	  49968	   c330	ClockApp.elf
+'Finished building: ClockApp.elf.size'
+' '
+08:44:31 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+08:44:52 **** Auto Build of configuration Debug for project ClockApp ****
+make all 
+'Building file: ../src/ClockApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ClockApp.o" -I../../ClockApp_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ClockApp.d" -MT"src/ClockApp.d" -o "src/ClockApp.o" "../src/ClockApp.c"
+'Finished building: ../src/ClockApp.c'
+' '
+'Building target: ClockApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ClockApp_bsp/ps7_cortexa9_0/lib -o "ClockApp.elf"  ./src/ClockApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ClockApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ClockApp.elf  |tee "ClockApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26172	   1168	  22628	  49968	   c330	ClockApp.elf
+'Finished building: ClockApp.elf.size'
+' '
+08:45:13 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+09:06:09 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+09:06:35 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+09:06:58 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+09:07:26 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+09:07:57 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+09:08:48 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+09:11:04 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+09:11:14 **** Auto Build of configuration Debug for project ClockApp ****
+make all 
+'Building file: ../src/ClockApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ClockApp.o" -I../../ClockApp_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ClockApp.d" -MT"src/ClockApp.d" -o "src/ClockApp.o" "../src/ClockApp.c"
+'Finished building: ../src/ClockApp.c'
+' '
+'Building target: ClockApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ClockApp_bsp/ps7_cortexa9_0/lib -o "ClockApp.elf"  ./src/ClockApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ClockApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ClockApp.elf  |tee "ClockApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26172	   1168	  22628	  49968	   c330	ClockApp.elf
+'Finished building: ClockApp.elf.size'
+' '
+09:11:53 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+17:04:43 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+17:05:25 **** Auto Build of configuration Debug for project ClockApp ****
+make all 
+'Building file: ../src/ClockApp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ClockApp.o" -I../../ClockApp_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ClockApp.d" -MT"src/ClockApp.d" -o "src/ClockApp.o" "../src/ClockApp.c"
+'Finished building: ../src/ClockApp.c'
+' '
+'Building target: ClockApp.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ClockApp_bsp/ps7_cortexa9_0/lib -o "ClockApp.elf"  ./src/ClockApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ClockApp.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ClockApp.elf  |tee "ClockApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26172	   1168	  22628	  49968	   c330	ClockApp.elf
+'Finished building: ClockApp.elf.size'
+' '
+17:06:10 **** Incremental Build of configuration Debug for project ClockApp ****
+make all 
+make: `all'를 위해 할 일이 없습니다

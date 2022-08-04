@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2014.3.1 (64-bit)
+# SW Build 1056140 on Thu Oct 30 17:03:40 MDT 2014
+# IP Build 1028902 on Fri Sep 26 17:35:13 MDT 2014
+# Start of session at: Wed Jan 21 15:41:47 2015
+# Process ID: 3852
+# Log file: D:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.runs/synth_1/system_wrapper.vds
+# Journal file: D:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl
+# set_param gui.test TreeTableDev
+# debug::add_scope template.lib 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7z020clg484-1
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
+# set_property webtalk.parent_dir D:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.cache/wt [current_project]
+# set_property parent.project_path D:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.xpr [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# add_files D:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/system.bd
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.3.1/data/ip'.
+add_files: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 248.254 ; gain = 62.539
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_proc_sys_reset_0_1/system_proc_sys_reset_0_1_board.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_proc_sys_reset_0_1/system_proc_sys_reset_0_1.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_proc_sys_reset_0_1/system_proc_sys_reset_0_1_ooc.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_axi_vdma_0_1/system_axi_vdma_0_1.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_axi_vdma_0_1/system_axi_vdma_0_1_clocks.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_axi_vdma_0_1/system_axi_vdma_0_1_ooc.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_v_tc_0_1/system_v_tc_0_1_ooc.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_v_tc_0_1/system_v_tc_0_1_clocks.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_v_axi4s_vid_out_0_0/system_v_axi4s_vid_out_0_0_ooc.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_v_axi4s_vid_out_0_0/system_v_axi4s_vid_out_0_0_clocks.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_v_tpg_0_0/system_v_tpg_0_0_ooc.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_v_tpg_0_0/system_v_tpg_0_0_clocks.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_axi_vdma_1_1/system_axi_vdma_1_1.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_axi_vdma_1_1/system_axi_vdma_1_1_clocks.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_axi_vdma_1_1/system_axi_vdma_1_1_ooc.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_xbar_0/system_xbar_0_ooc.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_v_tpg_0_1/system_v_tpg_0_1_ooc.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_v_tpg_0_1/system_v_tpg_0_1_clocks.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_ooc.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_auto_pc_1/system_auto_pc_1_ooc.xdc]
+# set_property used_in_implementation false [get_files -all d:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/ip/system_auto_pc_2/system_auto_pc_2_ooc.xdc]
+# set_property used_in_implementation false [get_files -all D:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/system_ooc.xdc]
+# set_property is_locked true [get_files D:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/bd/system/system.bd]
+# read_verilog -library xil_defaultlib D:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/sources_1/imports/hdl/system_wrapper.v
+# read_xdc D:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/constrs_1/new/top.xdc
+# set_property used_in_implementation false [get_files D:/work/RPS7000/OV5640/project/DDR/vdma_read/rev0.000/project_1.srcs/constrs_1/new/top.xdc]
+# read_xdc dont_touch.xdc
+# set_property used_in_implementation false [get_files dont_touch.xdc]
+# catch { write_hwdef -file system_wrapper.hwdef }
+# synth_design -top system_wrapper -part xc7z020clg484-1
+Command: synth_design -top system_wrapper -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 300.574 ; gain = 139.109
+---------------------------------------------------------------------------------

@@ -1,0 +1,31 @@
+{
+   guistr: "# # String gsaved with Nlview 6.4.10  2014-10-02 bk=1.3207 VDI=35 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 350 -defaultsOSRD
+preplace port m_ahb_hmastlock -pg 1 -y 370 -defaultsOSRD
+preplace port M_AHB -pg 1 -y 50 -defaultsOSRD
+preplace port m_ahb_hclk -pg 1 -y 310 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 410 -defaultsOSRD
+preplace port Core0_nIRQ -pg 1 -y 680 -defaultsOSRD
+preplace portBus m_ahb_hresetn -pg 1 -y 270 -defaultsOSRD
+preplace inst axi_ahblite_bridge_0 -pg 1 -lvl 1 -y 60 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph -pg 1 -lvl 1 -y 480 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 670 -defaultsOSRD
+preplace inst proc_sys_reset -pg 1 -lvl 1 -y 260 -defaultsOSRD
+preplace netloc processing_system7_0_ddr 1 1 1 580
+preplace netloc proc_sys_reset_interconnect_aresetn 1 0 2 150 160 540
+preplace netloc core0_nirq_1 1 0 1 N
+preplace netloc proc_sys_reset_peripheral_aresetn 1 0 2 140 170 570
+preplace netloc processing_system7_0_fclk_reset0_n 1 0 2 160 150 560
+preplace netloc processing_system7_0_fixed_io 1 1 1 590
+preplace netloc processing_system7_0_fclk_clk0 1 0 2 130 350 570
+preplace netloc axi_ahblite_bridge_0_m_ahb 1 1 1 N
+preplace netloc processing_system7_0_axi_periph_m00_axi 1 0 2 160 130 550
+preplace netloc processing_system7_0_m_axi_gp0 1 0 2 160 360 540
+preplace netloc axi_ahblite_bridge_0_m_ahb_hmastlock 1 1 1 590
+levelinfo -pg 1 110 350 610
+",
+}
+{
+   da_axi4_cnt: "1",
+}

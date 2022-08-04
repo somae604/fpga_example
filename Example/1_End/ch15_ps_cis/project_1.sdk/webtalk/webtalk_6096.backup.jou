@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2014.3.1 (64-bit)
+# SW Build 1056140 on Thu Oct 30 17:07:39 MDT 2014
+# 
+# Start of session at: Wed Feb 11 17:02:14 2015
+# Process ID: 10156
+# Log file: D:/work/RPS7000/OV5640/project/work_project/alpha_1.21.1_1vid_out_origin/project_1.sdk/webtalk/webtalk.log
+# Journal file: D:/work/RPS7000/OV5640/project/work_project/alpha_1.21.1_1vid_out_origin/project_1.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

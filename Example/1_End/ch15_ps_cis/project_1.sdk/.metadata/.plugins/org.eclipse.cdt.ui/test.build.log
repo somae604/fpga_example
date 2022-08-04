@@ -1,0 +1,48 @@
+14:36:34 **** Auto Build of configuration Debug for project test ****
+make all 
+'Building file: ../src/ov5640_custom.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ov5640_custom.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ov5640_custom.d" -MT"src/ov5640_custom.d" -o "src/ov5640_custom.o" "../src/ov5640_custom.c"
+../src/ov5640_custom.c: In function 'set_ov5640_register':
+../src/ov5640_custom.c:193:21: warning: comparison between pointer and integer [enabled by default]
+   if(ov5640_data[i] == NULL) {
+                     ^
+../src/ov5640_custom.c:229:3: warning: passing argument 2 of 'XIicPs_MasterSend' from incompatible pointer type [enabled by default]
+   XIicPs_MasterSend(&Iic, &i2c_data[i], 3, IIC_SLAVE_ADDRESS); // it is operation code
+   ^
+In file included from ../src/ov5640_custom.c:22:0:
+../../test_bsp/ps7_cortexa9_0/include/xiicps.h:354:6: note: expected 'u8 *' but argument is of type 'u32 *'
+ void XIicPs_MasterSend(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+      ^
+../src/ov5640_custom.c: In function 'ov5640_write_register':
+../src/ov5640_custom.c:264:2: warning: passing argument 2 of 'XIicPs_MasterSend' from incompatible pointer type [enabled by default]
+  XIicPs_MasterSend(&Iic, &temp, 3, IIC_SLAVE_ADDRESS); // send address and data
+  ^
+In file included from ../src/ov5640_custom.c:22:0:
+../../test_bsp/ps7_cortexa9_0/include/xiicps.h:354:6: note: expected 'u8 *' but argument is of type 'u32 *'
+ void XIicPs_MasterSend(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+      ^
+../src/ov5640_custom.c: In function 'ov5640_read_register':
+../src/ov5640_custom.c:278:2: warning: passing argument 2 of 'XIicPs_MasterSend' from incompatible pointer type [enabled by default]
+  XIicPs_MasterSend(&Iic, &temp, 2, IIC_SLAVE_ADDRESS); // send address
+  ^
+In file included from ../src/ov5640_custom.c:22:0:
+../../test_bsp/ps7_cortexa9_0/include/xiicps.h:354:6: note: expected 'u8 *' but argument is of type 'u32 *'
+ void XIicPs_MasterSend(XIicPs *InstancePtr, u8 *MsgPtr, int ByteCount,
+      ^
+'Finished building: ../src/ov5640_custom.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/helloworld.o ./src/ov5640_custom.o ./src/platform.o ./src/vdma_config.o ./src/vtc_config.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size test.elf  |tee "test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46196	   2208	  23668	  72072	  11988	test.elf
+'Finished building: test.elf.size'
+' '
+
+14:36:39 Build Finished (took 5s.159ms)
+

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2014.3.1 (64-bit)
+# SW Build 1056140 on Thu Oct 30 17:03:40 MDT 2014
+# IP Build 1028902 on Fri Sep 26 17:35:13 MDT 2014
+# Start of session at: Mon Jan 12 17:55:32 2015
+# Process ID: 5492
+# Log file: D:/work/Training/OV5640/project/DDR/vivado/HP_axi/VDMA/rev1.000_VGA_RGB_mode_vivado/project_1/project_1.runs/impl_1/top.vdi
+# Journal file: D:/work/Training/OV5640/project/DDR/vivado/HP_axi/VDMA/rev1.000_VGA_RGB_mode_vivado/project_1/project_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1

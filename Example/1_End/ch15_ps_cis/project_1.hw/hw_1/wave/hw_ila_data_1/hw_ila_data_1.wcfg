@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/work/RPS7000/OV5640/project/alpha_version/rev0.001/project_1.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject db_ref_id="1" fp_name="system/system_i/v_tc_0_fsync_out" type="logic">
+      <obj_property name="ElementShortName">system/system_i/v_tc_0_fsync_out</obj_property>
+      <obj_property name="ObjectShortName">system/system_i/v_tc_0_fsync_out</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider25">
+      <obj_property name="label">read</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider24">
+      <obj_property name="label">write</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="lcd_hsync_OBUF" type="logic">
+      <obj_property name="ElementShortName">lcd_hsync_OBUF</obj_property>
+      <obj_property name="ObjectShortName">lcd_hsync_OBUF</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="lcd_vsync_OBUF" type="logic">
+      <obj_property name="ElementShortName">lcd_vsync_OBUF</obj_property>
+      <obj_property name="ObjectShortName">lcd_vsync_OBUF</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system/system_i/v_tc_0_fsync_out" type="logic">
+      <obj_property name="ElementShortName">system/system_i/v_tc_0_fsync_out</obj_property>
+      <obj_property name="ObjectShortName">system/system_i/v_tc_0_fsync_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system/system_i/v_tc_0_vtiming_out_ACTIVE_VIDEO" type="logic">
+      <obj_property name="ElementShortName">system/system_i/v_tc_0_vtiming_out_ACTIVE_VIDEO</obj_property>
+      <obj_property name="ObjectShortName">system/system_i/v_tc_0_vtiming_out_ACTIVE_VIDEO</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system/system_i/v_tc_0_vtiming_out_HSYNC" type="logic">
+      <obj_property name="ElementShortName">system/system_i/v_tc_0_vtiming_out_HSYNC</obj_property>
+      <obj_property name="ObjectShortName">system/system_i/v_tc_0_vtiming_out_HSYNC</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system/system_i/v_tc_0_vtiming_out_VSYNC" type="logic">
+      <obj_property name="ElementShortName">system/system_i/v_tc_0_vtiming_out_VSYNC</obj_property>
+      <obj_property name="ObjectShortName">system/system_i/v_tc_0_vtiming_out_VSYNC</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 17:18:21 MST 2014
+# 
+# Start of session at: Mon Feb 23 10:54:27 2015
+# Process ID: 8504
+# Log file: D:/ch9_ps_TextLCD/ch9_ps_TextLCD.sdk/webtalk/webtalk.log
+# Journal file: D:/ch9_ps_TextLCD/ch9_ps_TextLCD.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

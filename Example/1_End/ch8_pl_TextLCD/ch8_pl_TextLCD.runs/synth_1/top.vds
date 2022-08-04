@@ -1,0 +1,615 @@
+#-----------------------------------------------------------
+# Vivado v2014.4_63036 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Tue Feb 24 18:10:05 2015
+# Process ID: 7568
+# Log file: D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.runs/synth_1/top.vds
+# Journal file: D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl
+# set_param gui.test TreeTableDev
+# debug::add_scope template.lib 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7z020clg484-1
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
+# set_property webtalk.parent_dir D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.cache/wt [current_project]
+# set_property parent.project_path D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.xpr [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# add_files D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/system.bd
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'.
+# set_property used_in_implementation false [get_files -all d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc]
+# set_property used_in_implementation false [get_files -all D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/system_ooc.xdc]
+# set_property is_locked true [get_files D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/system.bd]
+# read_verilog -library xil_defaultlib {
+#   D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v
+#   D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/hdl/system_wrapper.v
+#   D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/top.v
+# }
+# read_xdc D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/constrs_1/new/top.xdc
+# set_property used_in_implementation false [get_files D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/constrs_1/new/top.xdc]
+# read_xdc dont_touch.xdc
+# set_property used_in_implementation false [get_files dont_touch.xdc]
+# catch { write_hwdef -file top.hwdef }
+# synth_design -top top -part xc7z020clg484-1
+Command: synth_design -top top -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 263.469 ; gain = 102.313
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/top.v:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/top.v:55]
+INFO: [Synth 8-638] synthesizing module 'system_wrapper' [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/hdl/system_wrapper.v:12]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/hdl/system_wrapper.v:78]
+INFO: [Synth 8-638] synthesizing module 'system' [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/hdl/system.v:12]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/hdl/system.v:78]
+INFO: [Synth 8-638] synthesizing module 'system_processing_system7_0_0' [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'processing_system7_v5_5_processing_system7' [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:154]
+	Parameter C_USE_DEFAULT_ACP_USER_VAL bound to: 0 - type: integer 
+	Parameter C_S_AXI_ACP_ARUSER_VAL bound to: 31 - type: integer 
+	Parameter C_S_AXI_ACP_AWUSER_VAL bound to: 31 - type: integer 
+	Parameter C_M_AXI_GP0_THREAD_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_M_AXI_GP1_THREAD_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_M_AXI_GP0_ENABLE_STATIC_REMAP bound to: 0 - type: integer 
+	Parameter C_M_AXI_GP1_ENABLE_STATIC_REMAP bound to: 0 - type: integer 
+	Parameter C_M_AXI_GP0_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_M_AXI_GP1_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_S_AXI_GP0_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_GP1_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_HP0_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_HP1_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_HP2_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_HP3_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_ACP_ID_WIDTH bound to: 3 - type: integer 
+	Parameter C_S_AXI_HP0_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_S_AXI_HP1_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_S_AXI_HP2_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_S_AXI_HP3_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_INCLUDE_ACP_TRANS_CHECK bound to: 0 - type: integer 
+	Parameter C_NUM_F2P_INTR_INPUTS bound to: 1 - type: integer 
+	Parameter C_FCLK_CLK0_BUF bound to: true - type: string 
+	Parameter C_FCLK_CLK1_BUF bound to: false - type: string 
+	Parameter C_FCLK_CLK2_BUF bound to: false - type: string 
+	Parameter C_FCLK_CLK3_BUF bound to: false - type: string 
+	Parameter C_EMIO_GPIO_WIDTH bound to: 64 - type: integer 
+	Parameter C_INCLUDE_TRACE_BUFFER bound to: 0 - type: integer 
+	Parameter C_TRACE_BUFFER_FIFO_SIZE bound to: 128 - type: integer 
+	Parameter C_TRACE_BUFFER_CLOCK_DELAY bound to: 12 - type: integer 
+	Parameter USE_TRACE_DATA_EDGE_DETECTOR bound to: 0 - type: integer 
+	Parameter C_TRACE_PIPELINE_WIDTH bound to: 8 - type: integer 
+	Parameter C_PS7_SI_REV bound to: PRODUCTION - type: string 
+	Parameter C_EN_EMIO_ENET0 bound to: 0 - type: integer 
+	Parameter C_EN_EMIO_ENET1 bound to: 0 - type: integer 
+	Parameter C_EN_EMIO_TRACE bound to: 0 - type: integer 
+	Parameter C_DQ_WIDTH bound to: 32 - type: integer 
+	Parameter C_DQS_WIDTH bound to: 4 - type: integer 
+	Parameter C_DM_WIDTH bound to: 4 - type: integer 
+	Parameter C_MIO_PRIMITIVE bound to: 54 - type: integer 
+	Parameter C_PACKAGE_NAME bound to: clg484 - type: string 
+	Parameter C_IRQ_F2P_MODE bound to: DIRECT - type: string 
+	Parameter C_TRACE_INTERNAL_WIDTH bound to: 32 - type: integer 
+	Parameter C_EN_EMIO_PJTAG bound to: 0 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2014.4/scripts/rt/data/unisim_comp.v:606]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (1#1) [C:/Xilinx/Vivado/2014.4/scripts/rt/data/unisim_comp.v:606]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2232]
+INFO: [Synth 8-638] synthesizing module 'BIBUF' [C:/Xilinx/Vivado/2014.4/scripts/rt/data/unisim_comp.v:268]
+INFO: [Synth 8-256] done synthesizing module 'BIBUF' (2#1) [C:/Xilinx/Vivado/2014.4/scripts/rt/data/unisim_comp.v:268]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2233]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2234]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2235]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2236]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2237]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2238]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2239]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2240]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2241]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2242]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2243]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2244]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2245]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2250]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2256]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2256]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2256]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2262]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2262]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2262]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2262]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2262]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2262]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2262]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2262]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2262]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2262]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2262]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2262]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2262]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2262]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2262]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2268]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2268]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2268]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2268]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2274]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2274]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2274]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2274]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2274]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2274]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:2274]
+INFO: [Common 17-14] Message 'Synth 8-4446' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-638] synthesizing module 'PS7' [C:/Xilinx/Vivado/2014.4/scripts/rt/data/unisim_comp.v:26452]
+INFO: [Synth 8-256] done synthesizing module 'PS7' (3#1) [C:/Xilinx/Vivado/2014.4/scripts/rt/data/unisim_comp.v:26452]
+WARNING: [Synth 8-3848] Net ENET0_GMII_TX_EN in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:215]
+WARNING: [Synth 8-3848] Net ENET0_GMII_TX_ER in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:216]
+WARNING: [Synth 8-3848] Net ENET0_GMII_TXD in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:232]
+WARNING: [Synth 8-3848] Net ENET1_GMII_TX_EN in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:246]
+WARNING: [Synth 8-3848] Net ENET1_GMII_TX_ER in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:247]
+WARNING: [Synth 8-3848] Net ENET1_GMII_TXD in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:261]
+WARNING: [Synth 8-3848] Net PJTAG_TDO in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:298]
+WARNING: [Synth 8-3848] Net TRACE_CTL_PIPE[0] in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1304]
+WARNING: [Synth 8-3848] Net TRACE_DATA_PIPE[0] in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1305]
+WARNING: [Synth 8-3848] Net TRACE_CLK_OUT in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:407]
+WARNING: [Synth 8-3848] Net ENET0_GMII_COL_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1050]
+WARNING: [Synth 8-3848] Net ENET0_GMII_CRS_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1051]
+WARNING: [Synth 8-3848] Net ENET0_GMII_RXD_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1054]
+WARNING: [Synth 8-3848] Net ENET0_GMII_RX_DV_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1052]
+WARNING: [Synth 8-3848] Net ENET0_GMII_RX_ER_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1053]
+WARNING: [Synth 8-3848] Net ENET1_GMII_COL_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1059]
+WARNING: [Synth 8-3848] Net ENET1_GMII_CRS_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1060]
+WARNING: [Synth 8-3848] Net ENET1_GMII_RXD_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1063]
+WARNING: [Synth 8-3848] Net ENET1_GMII_RX_DV_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1061]
+WARNING: [Synth 8-3848] Net ENET1_GMII_RX_ER_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1062]
+WARNING: [Synth 8-3848] Net FTMD_TRACEIN_ATID_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1072]
+WARNING: [Synth 8-3848] Net FTMD_TRACEIN_DATA_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1070]
+WARNING: [Synth 8-3848] Net FTMD_TRACEIN_VALID_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1071]
+INFO: [Synth 8-256] done synthesizing module 'processing_system7_v5_5_processing_system7' (4#1) [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:154]
+WARNING: [Synth 8-350] instance 'inst' of module 'processing_system7_v5_5_processing_system7' requires 685 connections, but only 672 given [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.v:175]
+INFO: [Synth 8-256] done synthesizing module 'system_processing_system7_0_0' (5#1) [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.v:57]
+WARNING: [Synth 8-350] instance 'processing_system7_0' of module 'system_processing_system7_0_0' requires 23 connections, but only 21 given [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/hdl/system.v:78]
+INFO: [Synth 8-256] done synthesizing module 'system' (6#1) [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/hdl/system.v:12]
+INFO: [Synth 8-256] done synthesizing module 'system_wrapper' (7#1) [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/hdl/system_wrapper.v:12]
+INFO: [Synth 8-638] synthesizing module 'textlcd' [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:94]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:224]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:246]
+WARNING: [Synth 8-567] referenced signal 'resetn' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+WARNING: [Synth 8-567] referenced signal 'mode_pwron' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+WARNING: [Synth 8-567] referenced signal 'mode_fnset' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+WARNING: [Synth 8-567] referenced signal 'mode_onoff' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+WARNING: [Synth 8-567] referenced signal 'mode_entr1' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+WARNING: [Synth 8-567] referenced signal 'mode_entr2' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+WARNING: [Synth 8-567] referenced signal 'mode_entr3' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+WARNING: [Synth 8-567] referenced signal 'mode_seta1' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+WARNING: [Synth 8-567] referenced signal 'mode_wr1st' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+WARNING: [Synth 8-567] referenced signal 'mode_seta2' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+WARNING: [Synth 8-567] referenced signal 'mode_wr2nd' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+WARNING: [Synth 8-567] referenced signal 'mode_delay' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+WARNING: [Synth 8-567] referenced signal 'mode_actcm' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+WARNING: [Synth 8-567] referenced signal 'reg_a' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+WARNING: [Synth 8-567] referenced signal 'reg_b' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+WARNING: [Synth 8-567] referenced signal 'reg_c' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+WARNING: [Synth 8-567] referenced signal 'reg_d' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+WARNING: [Synth 8-567] referenced signal 'reg_e' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+WARNING: [Synth 8-567] referenced signal 'reg_f' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+WARNING: [Synth 8-567] referenced signal 'reg_g' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+WARNING: [Synth 8-567] referenced signal 'reg_h' should be on the sensitivity list [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:208]
+INFO: [Synth 8-256] done synthesizing module 'textlcd' (8#1) [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:94]
+INFO: [Synth 8-256] done synthesizing module 'top' (9#1) [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/top.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 298.723 ; gain = 137.566
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 298.723 ; gain = 137.566
+---------------------------------------------------------------------------------
+Loading clock regions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/zynq/zynq/xc7z020/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/zynq/zynq/xc7z020/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.4/data/parts/xilinx/zynq/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/zynq/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/zynq/zynq/xc7z020/clg484/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.4/data\./parts/xilinx/zynq/IOStandards.xml
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc] for cell 'usystem_wrapper/system_i/processing_system7_0/inst'
+Finished Parsing XDC File [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc] for cell 'usystem_wrapper/system_i/processing_system7_0/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to anoth XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/constrs_1/new/top.xdc]
+Finished Parsing XDC File [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/constrs_1/new/top.xdc]
+Parsing XDC File [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to anoth XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 550.672 ; gain = 0.008
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 550.672 ; gain = 389.516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 550.672 ; gain = 389.516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for usystem_wrapper/system_i. (constraint file  D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.runs/synth_1/dont_touch.xdc, line 7).
+Applied set_property DONT_TOUCH = true for usystem_wrapper/system_i/processing_system7_0. (constraint file  D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.runs/synth_1/dont_touch.xdc, line 10).
+Applied set_property DONT_TOUCH = true for usystem_wrapper/system_i/processing_system7_0/inst. (constraint file  D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.runs/synth_1/dont_touch.xdc, line 13).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 550.672 ; gain = 389.516
+---------------------------------------------------------------------------------
+ROM "count_lcd" won't be mapped to RAM because address size (24) is larger than maximum supported(18) 
+ROM "lcd_en" won't be mapped to RAM because address size (24) is larger than maximum supported(18) 
+ROM "lcd_mode" won't be mapped to RAM because it is too sparse.
+ROM "set_data" won't be mapped to RAM because it is too sparse.
+ROM "set_data" won't be mapped to RAM because it is too sparse.
+WARNING: [Synth 8-3848] Net ENET0_GMII_TX_EN in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:215]
+WARNING: [Synth 8-3848] Net ENET0_GMII_TX_ER in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:216]
+WARNING: [Synth 8-3848] Net ENET0_GMII_TXD in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:232]
+WARNING: [Synth 8-3848] Net ENET1_GMII_TX_EN in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:246]
+WARNING: [Synth 8-3848] Net ENET1_GMII_TX_ER in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:247]
+WARNING: [Synth 8-3848] Net ENET1_GMII_TXD in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:261]
+WARNING: [Synth 8-3848] Net PJTAG_TDO in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:298]
+WARNING: [Synth 8-3848] Net TRACE_CTL_PIPE[0] in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1304]
+WARNING: [Synth 8-3848] Net TRACE_DATA_PIPE[0] in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1305]
+WARNING: [Synth 8-3848] Net TRACE_CLK_OUT in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:407]
+WARNING: [Synth 8-3848] Net ENET0_GMII_COL_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1050]
+WARNING: [Synth 8-3848] Net ENET0_GMII_CRS_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1051]
+WARNING: [Synth 8-3848] Net ENET0_GMII_RXD_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1054]
+WARNING: [Synth 8-3848] Net ENET0_GMII_RX_DV_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1052]
+WARNING: [Synth 8-3848] Net ENET0_GMII_RX_ER_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1053]
+WARNING: [Synth 8-3848] Net ENET1_GMII_COL_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1059]
+WARNING: [Synth 8-3848] Net ENET1_GMII_CRS_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1060]
+WARNING: [Synth 8-3848] Net ENET1_GMII_RXD_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1063]
+WARNING: [Synth 8-3848] Net ENET1_GMII_RX_DV_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1061]
+WARNING: [Synth 8-3848] Net ENET1_GMII_RX_ER_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1062]
+WARNING: [Synth 8-3848] Net FTMD_TRACEIN_ATID_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1072]
+WARNING: [Synth 8-3848] Net FTMD_TRACEIN_DATA_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1070]
+WARNING: [Synth 8-3848] Net FTMD_TRACEIN_VALID_i in module/entity processing_system7_v5_5_processing_system7 does not have driver. [d:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:1071]
+WARNING: [Synth 8-327] inferring latch for variable 'set_data_reg' [D:/FINISH/ch8_pl_TextLCD/ch8_pl_TextLCD.srcs/sources_1/new/textlcd.v:203]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 550.672 ; gain = 389.516
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input     10 Bit        Muxes := 3     
+	  13 Input     10 Bit        Muxes := 1     
+	  17 Input     10 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	  13 Input      5 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 9     
+	   3 Input      1 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 2     
+	  17 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top 
+Detailed RTL Component Info : 
+Module processing_system7_v5_5_processing_system7 
+Detailed RTL Component Info : 
+Module system_processing_system7_0_0 
+Detailed RTL Component Info : 
+Module system 
+Detailed RTL Component Info : 
+Module system_wrapper 
+Detailed RTL Component Info : 
+Module textlcd 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input     10 Bit        Muxes := 3     
+	  13 Input     10 Bit        Muxes := 1     
+	  17 Input     10 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	  13 Input      5 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 9     
+	   3 Input      1 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 2     
+	  17 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 550.672 ; gain = 389.516
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+ROM "p_0_out" won't be mapped to RAM because it is too sparse.
+ROM "utextlcd/lcd_en" won't be mapped to RAM because address size (24) is larger than maximum supported(18) 
+ROM "utextlcd/count_lcd" won't be mapped to RAM because address size (24) is larger than maximum supported(18) 
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 550.672 ; gain = 389.516
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 550.672 ; gain = 389.516
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\utextlcd/lcd_mode_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\utextlcd/set_data_reg[8] )
+WARNING: [Synth 8-3332] Sequential element (\utextlcd/set_data_reg[8] ) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (\utextlcd/lcd_mode_reg[4] ) is unused and will be removed from module top.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 552.273 ; gain = 391.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 552.273 ; gain = 391.117
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 552.273 ; gain = 391.117
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 552.273 ; gain = 391.117
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 761.660 ; gain = 600.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 777.746 ; gain = 616.590
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 782.063 ; gain = 620.906
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 782.063 ; gain = 620.906
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 782.063 ; gain = 620.906
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 782.063 ; gain = 620.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BIBUF  |   130|
+|2     |BUFG   |     2|
+|3     |CARRY4 |    10|
+|4     |LUT1   |   129|
+|5     |LUT2   |     4|
+|6     |LUT3   |     3|
+|7     |LUT4   |     8|
+|8     |LUT5   |    21|
+|9     |LUT6   |    27|
+|10    |PS7    |     1|
+|11    |FDRE   |    44|
+|12    |FDSE   |     1|
+|13    |LDC    |     9|
+|14    |IBUF   |     2|
+|15    |OBUF   |    11|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------------------------+-------------------------------------------+------+
+|      |Instance                   |Module                                     |Cells |
++------+---------------------------+-------------------------------------------+------+
+|1     |top                        |                                           |   402|
+|2     |  usystem_wrapper          |system_wrapper                             |   220|
+|3     |    system_i               |system                                     |   220|
+|4     |      processing_system7_0 |system_processing_system7_0_0              |   220|
+|5     |        inst               |processing_system7_v5_5_processing_system7 |   220|
+|6     |  utextlcd                 |textlcd                                    |   168|
++------+---------------------------+-------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 782.063 ; gain = 620.906
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 26 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:27 . Memory (MB): peak = 782.063 ; gain = 309.813
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 782.063 ; gain = 620.906
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 9 instances were transformed.
+  LDC => LDCE: 9 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+37 Infos, 172 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 787.371 ; gain = 567.070
+# write_checkpoint -noxdef top.dcp
+# catch { report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb }
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 787.371 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 24 18:10:44 2015...

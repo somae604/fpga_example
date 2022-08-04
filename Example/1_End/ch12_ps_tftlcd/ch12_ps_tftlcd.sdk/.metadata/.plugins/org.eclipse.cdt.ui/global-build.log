@@ -1,0 +1,415 @@
+11:05:23 **** Build of project TFTLCD_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+11:05:32 **** Build of configuration Debug for project TFTLCD ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../TFTLCD_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../TFTLCD_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: TFTLCD.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TFTLCD_bsp/ps7_cortexa9_0/lib -o "TFTLCD.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TFTLCD.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TFTLCD.elf  |tee "TFTLCD.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22920	   1152	  22564	  46636	   b62c	TFTLCD.elf
+'Finished building: TFTLCD.elf.size'
+' '
+11:06:45 **** Clean-only build of configuration Debug for project TFTLCD ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  TFTLCD.elf.size  TFTLCD.elf
+' '
+11:06:45 **** Auto Build of configuration Debug for project TFTLCD ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I../../TFTLCD_bsp/ps7_cortexa9_0/include -I"D:\FINISH\ch12_ps_tftlcd\header" -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I../../TFTLCD_bsp/ps7_cortexa9_0/include -I"D:\FINISH\ch12_ps_tftlcd\header" -c -fmessage-length=0 -MT"src/platform.o" -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: TFTLCD.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TFTLCD_bsp/ps7_cortexa9_0/lib -o "TFTLCD.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TFTLCD.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TFTLCD.elf  |tee "TFTLCD.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22920	   1152	  22564	  46636	   b62c	TFTLCD.elf
+'Finished building: TFTLCD.elf.size'
+' '
+11:07:06 **** Clean-only build of configuration Debug for project TFTLCD ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  TFTLCD.elf.size  TFTLCD.elf
+' '
+11:07:06 **** Auto Build of configuration Debug for project TFTLCD ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I../../TFTLCD_bsp/ps7_cortexa9_0/include -I"D:\FINISH\ch12_ps_tftlcd\header" -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I../../TFTLCD_bsp/ps7_cortexa9_0/include -I"D:\FINISH\ch12_ps_tftlcd\header" -c -fmessage-length=0 -MT"src/platform.o" -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: TFTLCD.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TFTLCD_bsp/ps7_cortexa9_0/lib -o "TFTLCD.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TFTLCD.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TFTLCD.elf  |tee "TFTLCD.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22920	   1152	  22564	  46636	   b62c	TFTLCD.elf
+'Finished building: TFTLCD.elf.size'
+' '
+11:07:30 **** Auto Build of configuration Debug for project TFTLCD ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I../../TFTLCD_bsp/ps7_cortexa9_0/include -I"D:\FINISH\ch12_ps_tftlcd\header" -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:9:0: warning: "XPAR_M_AHB_BASEADDR" redefined [enabled by default]
+ #define XPAR_M_AHB_BASEADDR 0x60000000
+ ^
+In file included from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_printf.h:11:0,
+                 from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/helloworld.c:4:
+../../TFTLCD_bsp/ps7_cortexa9_0/include/xparameters.h:18:0: note: this is the location of the previous definition
+ #define XPAR_M_AHB_BASEADDR 0x43C00000
+ ^
+../src/helloworld.c:10:0: warning: "XPAR_M_AHB_HIGHADDR" redefined [enabled by default]
+ #define XPAR_M_AHB_HIGHADDR 0x6003FFFF
+ ^
+In file included from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_printf.h:11:0,
+                 from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/helloworld.c:4:
+../../TFTLCD_bsp/ps7_cortexa9_0/include/xparameters.h:19:0: note: this is the location of the previous definition
+ #define XPAR_M_AHB_HIGHADDR 0x43C0FFFF
+ ^
+../src/helloworld.c:12:0: warning: "XPAR_M_AHB_1_BASEADDR" redefined [enabled by default]
+ #define XPAR_M_AHB_1_BASEADDR 0x80000000
+ ^
+In file included from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_printf.h:11:0,
+                 from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/helloworld.c:4:
+../../TFTLCD_bsp/ps7_cortexa9_0/include/xparameters.h:23:0: note: this is the location of the previous definition
+ #define XPAR_M_AHB_1_BASEADDR 0x43C10000
+ ^
+../src/helloworld.c:13:0: warning: "XPAR_M_AHB_1_HIGHADDR" redefined [enabled by default]
+ #define XPAR_M_AHB_1_HIGHADDR 0x80000FFF
+ ^
+In file included from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_printf.h:11:0,
+                 from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/helloworld.c:4:
+../../TFTLCD_bsp/ps7_cortexa9_0/include/xparameters.h:24:0: note: this is the location of the previous definition
+ #define XPAR_M_AHB_1_HIGHADDR 0x43C1FFFF
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: TFTLCD.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TFTLCD_bsp/ps7_cortexa9_0/lib -o "TFTLCD.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TFTLCD.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TFTLCD.elf  |tee "TFTLCD.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23776	 784512	  22564	 830852	  cad84	TFTLCD.elf
+'Finished building: TFTLCD.elf.size'
+' '
+11:08:25 **** Incremental Build of configuration Debug for project TFTLCD ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+11:09:04 **** Incremental Build of configuration Debug for project TFTLCD ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+11:10:06 **** Incremental Build of configuration Debug for project TFTLCD ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+11:11:35 **** Incremental Build of configuration Debug for project TFTLCD ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+11:13:47 **** Build of project TFTLCD_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+11:13:55 **** Build of configuration Debug for project TFTLCD ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I../../TFTLCD_bsp/ps7_cortexa9_0/include -I"D:\FINISH\ch12_ps_tftlcd\header" -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:9:0: warning: "XPAR_M_AHB_BASEADDR" redefined [enabled by default]
+ #define XPAR_M_AHB_BASEADDR 0x60000000
+ ^
+In file included from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_printf.h:11:0,
+                 from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/helloworld.c:4:
+../../TFTLCD_bsp/ps7_cortexa9_0/include/xparameters.h:18:0: note: this is the location of the previous definition
+ #define XPAR_M_AHB_BASEADDR 0x43C00000
+ ^
+../src/helloworld.c:10:0: warning: "XPAR_M_AHB_HIGHADDR" redefined [enabled by default]
+ #define XPAR_M_AHB_HIGHADDR 0x6003FFFF
+ ^
+In file included from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_printf.h:11:0,
+                 from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/helloworld.c:4:
+../../TFTLCD_bsp/ps7_cortexa9_0/include/xparameters.h:19:0: note: this is the location of the previous definition
+ #define XPAR_M_AHB_HIGHADDR 0x43C0FFFF
+ ^
+../src/helloworld.c:12:0: warning: "XPAR_M_AHB_1_BASEADDR" redefined [enabled by default]
+ #define XPAR_M_AHB_1_BASEADDR 0x80000000
+ ^
+In file included from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_printf.h:11:0,
+                 from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/helloworld.c:4:
+../../TFTLCD_bsp/ps7_cortexa9_0/include/xparameters.h:23:0: note: this is the location of the previous definition
+ #define XPAR_M_AHB_1_BASEADDR 0x43C10000
+ ^
+../src/helloworld.c:13:0: warning: "XPAR_M_AHB_1_HIGHADDR" redefined [enabled by default]
+ #define XPAR_M_AHB_1_HIGHADDR 0x80000FFF
+ ^
+In file included from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_printf.h:11:0,
+                 from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/helloworld.c:4:
+../../TFTLCD_bsp/ps7_cortexa9_0/include/xparameters.h:24:0: note: this is the location of the previous definition
+ #define XPAR_M_AHB_1_HIGHADDR 0x43C1FFFF
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I../../TFTLCD_bsp/ps7_cortexa9_0/include -I"D:\FINISH\ch12_ps_tftlcd\header" -c -fmessage-length=0 -MT"src/platform.o" -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: TFTLCD.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TFTLCD_bsp/ps7_cortexa9_0/lib -o "TFTLCD.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TFTLCD.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TFTLCD.elf  |tee "TFTLCD.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23776	 784512	  22564	 830852	  cad84	TFTLCD.elf
+'Finished building: TFTLCD.elf.size'
+' '
+09:22:22 **** Incremental Build of configuration Debug for project TFTLCD ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+09:13:13 **** Incremental Build of configuration Debug for project TFTLCD ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+19:40:46 **** Incremental Build of configuration Debug for project TFTLCD ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+20:44:06 **** Build of project TFTLCD_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+20:44:17 **** Build of configuration Debug for project TFTLCD ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I../../TFTLCD_bsp/ps7_cortexa9_0/include -I"D:\FINISH\ch12_ps_tftlcd\header" -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:9:0: warning: "XPAR_M_AHB_BASEADDR" redefined [enabled by default]
+ #define XPAR_M_AHB_BASEADDR 0x60000000
+ ^
+In file included from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_printf.h:11:0,
+                 from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/helloworld.c:4:
+../../TFTLCD_bsp/ps7_cortexa9_0/include/xparameters.h:18:0: note: this is the location of the previous definition
+ #define XPAR_M_AHB_BASEADDR 0x43C00000
+ ^
+../src/helloworld.c:10:0: warning: "XPAR_M_AHB_HIGHADDR" redefined [enabled by default]
+ #define XPAR_M_AHB_HIGHADDR 0x6003FFFF
+ ^
+In file included from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_printf.h:11:0,
+                 from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/helloworld.c:4:
+../../TFTLCD_bsp/ps7_cortexa9_0/include/xparameters.h:19:0: note: this is the location of the previous definition
+ #define XPAR_M_AHB_HIGHADDR 0x43C0FFFF
+ ^
+../src/helloworld.c:12:0: warning: "XPAR_M_AHB_1_BASEADDR" redefined [enabled by default]
+ #define XPAR_M_AHB_1_BASEADDR 0x80000000
+ ^
+In file included from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_printf.h:11:0,
+                 from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/helloworld.c:4:
+../../TFTLCD_bsp/ps7_cortexa9_0/include/xparameters.h:23:0: note: this is the location of the previous definition
+ #define XPAR_M_AHB_1_BASEADDR 0x43C10000
+ ^
+../src/helloworld.c:13:0: warning: "XPAR_M_AHB_1_HIGHADDR" redefined [enabled by default]
+ #define XPAR_M_AHB_1_HIGHADDR 0x80000FFF
+ ^
+In file included from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_printf.h:11:0,
+                 from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/helloworld.c:4:
+../../TFTLCD_bsp/ps7_cortexa9_0/include/xparameters.h:24:0: note: this is the location of the previous definition
+ #define XPAR_M_AHB_1_HIGHADDR 0x43C1FFFF
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I../../TFTLCD_bsp/ps7_cortexa9_0/include -I"D:\FINISH\ch12_ps_tftlcd\header" -c -fmessage-length=0 -MT"src/platform.o" -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: TFTLCD.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TFTLCD_bsp/ps7_cortexa9_0/lib -o "TFTLCD.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TFTLCD.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TFTLCD.elf  |tee "TFTLCD.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23776	 784512	  22564	 830852	  cad84	TFTLCD.elf
+'Finished building: TFTLCD.elf.size'
+' '

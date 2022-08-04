@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cam2video_in_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cam2video_in_testbench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="36" />
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/pclk" type="logic">
+      <obj_property name="ElementShortName">pclk</obj_property>
+      <obj_property name="ObjectShortName">pclk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/pclk_div2" type="logic">
+      <obj_property name="ElementShortName">pclk_div2</obj_property>
+      <obj_property name="ObjectShortName">pclk_div2</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/cam_de" type="logic">
+      <obj_property name="ElementShortName">cam_de</obj_property>
+      <obj_property name="ObjectShortName">cam_de</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/cam_vsync" type="logic">
+      <obj_property name="ElementShortName">cam_vsync</obj_property>
+      <obj_property name="ObjectShortName">cam_vsync</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/vid_io_in_field" type="logic">
+      <obj_property name="ElementShortName">vid_io_in_field</obj_property>
+      <obj_property name="ObjectShortName">vid_io_in_field</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/vid_io_in_hblank" type="logic">
+      <obj_property name="ElementShortName">vid_io_in_hblank</obj_property>
+      <obj_property name="ObjectShortName">vid_io_in_hblank</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/vid_io_in_vblank" type="logic">
+      <obj_property name="ElementShortName">vid_io_in_vblank</obj_property>
+      <obj_property name="ObjectShortName">vid_io_in_vblank</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/vid_io_in_vsync" type="logic">
+      <obj_property name="ElementShortName">vid_io_in_vsync</obj_property>
+      <obj_property name="ObjectShortName">vid_io_in_vsync</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/vid_io_in_hsync" type="logic">
+      <obj_property name="ElementShortName">vid_io_in_hsync</obj_property>
+      <obj_property name="ObjectShortName">vid_io_in_hsync</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/vid_io_in_active_video" type="logic">
+      <obj_property name="ElementShortName">vid_io_in_active_video</obj_property>
+      <obj_property name="ObjectShortName">vid_io_in_active_video</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/cam_data" type="array">
+      <obj_property name="ElementShortName">cam_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cam_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/k" type="array">
+      <obj_property name="ElementShortName">k[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/vid_io_in_data" type="array">
+      <obj_property name="ElementShortName">vid_io_in_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">vid_io_in_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider31">
+      <obj_property name="label">vvvv</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/uut/pclk" type="logic">
+      <obj_property name="ElementShortName">pclk</obj_property>
+      <obj_property name="ObjectShortName">pclk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/uut/pclk_div2" type="logic">
+      <obj_property name="ElementShortName">pclk_div2</obj_property>
+      <obj_property name="ObjectShortName">pclk_div2</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/uut/cam_de" type="logic">
+      <obj_property name="ElementShortName">cam_de</obj_property>
+      <obj_property name="ObjectShortName">cam_de</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/uut/cam_data" type="array">
+      <obj_property name="ElementShortName">cam_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cam_data[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/uut/reg_de_1" type="logic">
+      <obj_property name="ElementShortName">reg_de_1</obj_property>
+      <obj_property name="ObjectShortName">reg_de_1</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/uut/cam_vsync" type="logic">
+      <obj_property name="ElementShortName">cam_vsync</obj_property>
+      <obj_property name="ObjectShortName">cam_vsync</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/uut/hcount" type="array">
+      <obj_property name="ElementShortName">hcount[11:0]</obj_property>
+      <obj_property name="ObjectShortName">hcount[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/uut/reg_t1" type="array">
+      <obj_property name="ElementShortName">reg_t1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_t1[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/uut/reg_t2" type="array">
+      <obj_property name="ElementShortName">reg_t2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_t2[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/uut/vid_io_in_field" type="logic">
+      <obj_property name="ElementShortName">vid_io_in_field</obj_property>
+      <obj_property name="ObjectShortName">vid_io_in_field</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/uut/vid_io_in_hblank" type="logic">
+      <obj_property name="ElementShortName">vid_io_in_hblank</obj_property>
+      <obj_property name="ObjectShortName">vid_io_in_hblank</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/uut/vid_io_in_hsync" type="logic">
+      <obj_property name="ElementShortName">vid_io_in_hsync</obj_property>
+      <obj_property name="ObjectShortName">vid_io_in_hsync</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/uut/vid_io_in_vblank" type="logic">
+      <obj_property name="ElementShortName">vid_io_in_vblank</obj_property>
+      <obj_property name="ObjectShortName">vid_io_in_vblank</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/uut/bgr_data" type="array">
+      <obj_property name="ElementShortName">bgr_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">bgr_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/uut/vid_io_in_data" type="array">
+      <obj_property name="ElementShortName">vid_io_in_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">vid_io_in_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/uut/vcount" type="array">
+      <obj_property name="ElementShortName">vcount[11:0]</obj_property>
+      <obj_property name="ObjectShortName">vcount[11:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/uut/cam_hcount" type="array">
+      <obj_property name="ElementShortName">cam_hcount[10:0]</obj_property>
+      <obj_property name="ObjectShortName">cam_hcount[10:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/uut/cam_thcount" type="array">
+      <obj_property name="ElementShortName">cam_thcount[10:0]</obj_property>
+      <obj_property name="ObjectShortName">cam_thcount[10:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/uut/vid_io_in_active_video" type="logic">
+      <obj_property name="ElementShortName">vid_io_in_active_video</obj_property>
+      <obj_property name="ObjectShortName">vid_io_in_active_video</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/cam2video_in_testbench/uut/vid_io_in_vsync" type="logic">
+      <obj_property name="ElementShortName">vid_io_in_vsync</obj_property>
+      <obj_property name="ObjectShortName">vid_io_in_vsync</obj_property>
+   </wvobject>
+</wave_config>

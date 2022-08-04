@@ -1,0 +1,39 @@
+{
+   guistr: "# # String gsaved with Nlview 6.4.10  2014-10-02 bk=1.3207 VDI=35 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 330 -defaultsOSRD
+preplace port M_AHB_1 -pg 1 -y 550 -defaultsOSRD
+preplace port m_ahb_hmastlock -pg 1 -y 190 -defaultsOSRD
+preplace port m_ahb_hclk_1 -pg 1 -y 570 -defaultsOSRD
+preplace port M_AHB -pg 1 -y 110 -defaultsOSRD
+preplace port m_ahb_hclk -pg 1 -y 150 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 350 -defaultsOSRD
+preplace port m_ahb_hmastlock_1 -pg 1 -y 610 -defaultsOSRD
+preplace portBus m_ahb_hresetn -pg 1 -y 390 -defaultsOSRD
+preplace portBus m_ahb_hresetn_1 -pg 1 -y 410 -defaultsOSRD
+preplace inst axi_ahblite_bridge_0 -pg 1 -lvl 2 -y 90 -defaultsOSRD
+preplace inst axi_ahblite_bridge_1 -pg 1 -lvl 2 -y 530 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph_1 -pg 1 -lvl 1 -y 590 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph -pg 1 -lvl 1 -y 110 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 350 -defaultsOSRD
+preplace inst proc_sys_reset -pg 1 -lvl 2 -y 360 -defaultsOSRD
+preplace netloc processing_system7_0_ddr 1 1 2 460 260 NJ
+preplace netloc processing_system7_0_m_axi_gp1 1 0 2 60 710 440
+preplace netloc proc_sys_reset_interconnect_aresetn 1 0 3 40 450 NJ 450 890
+preplace netloc proc_sys_reset_peripheral_aresetn 1 0 3 50 230 480 460 920
+preplace netloc axi_ahblite_bridge_1_m_ahb 1 2 1 900
+preplace netloc processing_system7_0_axi_periph_1_m00_axi 1 1 1 490
+preplace netloc axi_ahblite_bridge_1_m_ahb_hmastlock 1 2 1 890
+preplace netloc processing_system7_0_fclk_reset0_n 1 1 1 490
+preplace netloc processing_system7_0_fixed_io 1 1 2 450 270 NJ
+preplace netloc processing_system7_0_fclk_clk0 1 0 3 20 720 470 600 910
+preplace netloc axi_ahblite_bridge_0_m_ahb 1 2 1 930
+preplace netloc processing_system7_0_axi_periph_m00_axi 1 1 1 440
+preplace netloc processing_system7_0_m_axi_gp0 1 0 2 30 250 440
+preplace netloc axi_ahblite_bridge_0_m_ahb_hmastlock 1 2 1 920
+levelinfo -pg 1 0 250 730 950
+",
+}
+{
+   da_axi4_cnt: "2",
+}

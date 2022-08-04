@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="CHAR_DPRAM_synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1422497346">
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/CHAR_DPRAM_synth_1/constrs_in.xml"/>
+  <File Type="RDS-DCP" Name="CHAR_DPRAM.dcp"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/CHAR_DPRAM_synth_1/sources.xml"/>
+  <File Type="RDS-UTIL-PB" Name="CHAR_DPRAM_utilization_synth.pb"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/CHAR_DPRAM_synth_1/CHAR_DPRAM_synth_1.psg"/>
+  <File Type="PA-TCL" Name="CHAR_DPRAM.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="CHAR_DPRAM_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="CHAR_DPRAM.vds"/>
+  <File Type="RDS-UTIL" Name="CHAR_DPRAM_utilization_synth.rpt"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="CHAR_DPRAM_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="CHAR_DPRAM_timing_summary_synth.pb"/>
+  <File Type="VDS-HWDEF" Name="CHAR_DPRAM.hwdef"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/CHAR_DPRAM">
+    <File Path="$PSRCDIR/sources_1/ip/CHAR_DPRAM/CHAR_DPRAM.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="CHAR_DPRAM"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/CHAR_DPRAM">
+    <File Path="$PSRCDIR/sources_1/ip/CHAR_DPRAM/CHAR_DPRAM.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="CHAR_DPRAM"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

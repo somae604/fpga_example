@@ -1,0 +1,45 @@
+10:44:05 INFO  : Processing command line option -hwspec D:/ch4_ps/ch4_ps.sdk/system_wrapper.hdf.
+10:44:12 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:44:58 INFO  : FPGA configured successfully with bitstream "D:/ch4_ps/ch4_ps.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:45:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:45:09 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    AP transaction error (DP CTRL_STAT=0xf0000021)
+    Error Address = 0x00100000, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:666)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:605)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:293)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+10:45:26 INFO  : FPGA configured successfully with bitstream "D:/ch4_ps/ch4_ps.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:45:39 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:45:51 INFO  : Processing command line option -hwspec D:/ch4_ps/ch4_ps.sdk/system_wrapper.hdf.
+10:45:53 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+10:45:53 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:46:37 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to open Cable Node jsn-DLC9-Port_#0004.Hub_#0004 on TCP:127.0.0.1:3121
+
+
+10:46:51 INFO  : FPGA configured successfully with bitstream "D:/ch4_ps/ch4_ps.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:46:58 INFO  : ps7_init is completed.
+10:46:58 INFO  : ps7_post_config is completed.
+10:46:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:47:48 INFO  : FPGA configured successfully with bitstream "D:/ch4_ps/ch4_ps.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:47:55 INFO  : ps7_init is completed.
+10:47:55 INFO  : ps7_post_config is completed.
+10:47:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:53:21 INFO  : Invoking Bootgen: bootgen -image ch4_ps_boot.bif -o D:\ch4_ps\ch4_ps.boot\BOOT.bin
+10:53:21 INFO  : Creating new bif file D:\ch4_ps\ch4_ps.boot\ch4_ps_boot.bif
+10:53:22 INFO  : Bootgen command execution is done.
+10:53:56 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

@@ -1,0 +1,341 @@
+15:12:17 **** Build of project Interrupt_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+15:12:27 **** Build of configuration Debug for project Interrupt ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Interrupt.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Interrupt_bsp/ps7_cortexa9_0/lib -o "Interrupt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Interrupt.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Interrupt.elf  |tee "Interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22920	   1152	  22564	  46636	   b62c	Interrupt.elf
+'Finished building: Interrupt.elf.size'
+' '
+15:13:51 **** Build of configuration Debug for project Interrupt_bsp_xscugic_example_1 ****
+make all 
+'Building file: ../src/xscugic_example.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xscugic_example.o" -I../../Interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xscugic_example.d" -MT"src/xscugic_example.d" -o "src/xscugic_example.o" "../src/xscugic_example.c"
+'Finished building: ../src/xscugic_example.c'
+' '
+'Building target: Interrupt_bsp_xscugic_example_1.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Interrupt_bsp/ps7_cortexa9_0/lib -o "Interrupt_bsp_xscugic_example_1.elf"  ./src/xscugic_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Interrupt_bsp_xscugic_example_1.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Interrupt_bsp_xscugic_example_1.elf  |tee "Interrupt_bsp_xscugic_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26064	   1928	  22596	  50588	   c59c	Interrupt_bsp_xscugic_example_1.elf
+'Finished building: Interrupt_bsp_xscugic_example_1.elf.size'
+' '
+15:14:13 **** Auto Build of configuration Debug for project Interrupt ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Interrupt.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Interrupt_bsp/ps7_cortexa9_0/lib -o "Interrupt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Interrupt.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Interrupt.elf  |tee "Interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28688	   1928	  22596	  53212	   cfdc	Interrupt.elf
+'Finished building: Interrupt.elf.size'
+' '
+15:17:08 **** Auto Build of configuration Debug for project Interrupt ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Interrupt.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Interrupt_bsp/ps7_cortexa9_0/lib -o "Interrupt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Interrupt.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Interrupt.elf  |tee "Interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28688	   1928	  22596	  53212	   cfdc	Interrupt.elf
+'Finished building: Interrupt.elf.size'
+' '
+15:21:09 **** Auto Build of configuration Debug for project Interrupt ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:337:2: warning: data definition has no type or storage class [enabled by default]
+  InterruptProcessed = TRUE;
+  ^
+../src/helloworld.c:337:2: warning: type defaults to 'int' in declaration of 'InterruptProcessed' [-Wimplicit-int]
+../src/helloworld.c:337:2: error: conflicting type qualifiers for 'InterruptProcessed'
+../src/helloworld.c:97:21: note: previous definition of 'InterruptProcessed' was here
+ volatile static int InterruptProcessed = FALSE;
+                     ^
+../src/helloworld.c:338:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/helloworld.o] 오류 1
+15:21:16 **** Auto Build of configuration Debug for project Interrupt ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:334:2: warning: data definition has no type or storage class [enabled by default]
+  InterruptProcessed = TRUE;
+  ^
+../src/helloworld.c:334:2: warning: type defaults to 'int' in declaration of 'InterruptProcessed' [-Wimplicit-int]
+../src/helloworld.c:334:2: error: conflicting type qualifiers for 'InterruptProcessed'
+../src/helloworld.c:97:21: note: previous definition of 'InterruptProcessed' was here
+ volatile static int InterruptProcessed = FALSE;
+                     ^
+../src/helloworld.c:335:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/helloworld.o] 오류 1
+15:21:19 **** Auto Build of configuration Debug for project Interrupt ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Interrupt.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Interrupt_bsp/ps7_cortexa9_0/lib -o "Interrupt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Interrupt.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Interrupt.elf  |tee "Interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28928	   1928	  22596	  53452	   d0cc	Interrupt.elf
+'Finished building: Interrupt.elf.size'
+' '
+15:24:10 **** Clean-only build of configuration Debug for project Interrupt_bsp_xscugic_example_1 ****
+make clean 
+rm -rf  ./src/xscugic_example.o  ./src/xscugic_example.d  Interrupt_bsp_xscugic_example_1.elf.size  Interrupt_bsp_xscugic_example_1.elf
+' '
+15:24:10 **** Incremental Build of configuration Debug for project Interrupt_bsp_xscugic_example_1 ****
+make all 
+'Building file: ../src/xscugic_example.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xscugic_example.o" -I../../Interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xscugic_example.d" -MT"src/xscugic_example.d" -o "src/xscugic_example.o" "../src/xscugic_example.c"
+'Finished building: ../src/xscugic_example.c'
+' '
+'Building target: Interrupt_bsp_xscugic_example_1.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Interrupt_bsp/ps7_cortexa9_0/lib -o "Interrupt_bsp_xscugic_example_1.elf"  ./src/xscugic_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Interrupt_bsp_xscugic_example_1.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Interrupt_bsp_xscugic_example_1.elf  |tee "Interrupt_bsp_xscugic_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26064	   1928	  22596	  50588	   c59c	Interrupt_bsp_xscugic_example_1.elf
+'Finished building: Interrupt_bsp_xscugic_example_1.elf.size'
+' '
+15:24:11 **** Clean-only build of configuration Debug for project Interrupt ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  Interrupt.elf.size  Interrupt.elf
+' '
+15:24:11 **** Incremental Build of configuration Debug for project Interrupt ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Interrupt.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Interrupt_bsp/ps7_cortexa9_0/lib -o "Interrupt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Interrupt.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Interrupt.elf  |tee "Interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28928	   1928	  22596	  53452	   d0cc	Interrupt.elf
+'Finished building: Interrupt.elf.size'
+' '
+15:25:10 **** Auto Build of configuration Debug for project Interrupt ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Interrupt_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Interrupt.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Interrupt_bsp/ps7_cortexa9_0/lib -o "Interrupt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Interrupt.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Interrupt.elf  |tee "Interrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28976	   1928	  22596	  53500	   d0fc	Interrupt.elf
+'Finished building: Interrupt.elf.size'
+' '
+15:25:15 **** Incremental Build of configuration Debug for project Interrupt_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+15:25:15 **** Incremental Build of configuration Debug for project Interrupt ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+08:46:07 **** Incremental Build of configuration Debug for project Interrupt_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+08:46:07 **** Incremental Build of configuration Debug for project Interrupt ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+09:19:00 **** Incremental Build of configuration Debug for project Interrupt_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+09:19:00 **** Incremental Build of configuration Debug for project Interrupt ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+18:18:38 **** Incremental Build of configuration Debug for project Interrupt_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+18:18:39 **** Incremental Build of configuration Debug for project Interrupt ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+18:19:27 **** Incremental Build of configuration Debug for project Interrupt_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+18:19:28 **** Incremental Build of configuration Debug for project Interrupt ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+18:19:59 **** Incremental Build of configuration Debug for project Interrupt_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+18:19:59 **** Incremental Build of configuration Debug for project Interrupt ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+19:58:05 **** Incremental Build of configuration Debug for project Interrupt_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+19:58:06 **** Incremental Build of configuration Debug for project Interrupt ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+19:58:23 **** Incremental Build of configuration Debug for project Interrupt_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+19:58:23 **** Incremental Build of configuration Debug for project Interrupt ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+20:01:06 **** Incremental Build of configuration Debug for project Interrupt_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+20:01:07 **** Incremental Build of configuration Debug for project Interrupt ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+20:01:42 **** Incremental Build of configuration Debug for project Interrupt_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+20:01:43 **** Incremental Build of configuration Debug for project Interrupt ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+20:01:56 **** Incremental Build of configuration Debug for project Interrupt_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+20:01:57 **** Incremental Build of configuration Debug for project Interrupt ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+20:02:08 **** Incremental Build of configuration Debug for project Interrupt_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+20:02:09 **** Incremental Build of configuration Debug for project Interrupt ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+20:10:59 **** Incremental Build of configuration Debug for project Interrupt_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+20:11:00 **** Incremental Build of configuration Debug for project Interrupt ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+20:29:53 **** Incremental Build of configuration Debug for project Interrupt_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+20:29:54 **** Incremental Build of configuration Debug for project Interrupt ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+21:10:54 **** Incremental Build of configuration Debug for project Interrupt_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+21:10:54 **** Incremental Build of configuration Debug for project Interrupt ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+21:11:25 **** Incremental Build of configuration Debug for project Interrupt_bsp_xscugic_example_1 ****
+make all 
+make: `all'를 위해 할 일이 없습니다
+21:11:25 **** Incremental Build of configuration Debug for project Interrupt ****
+make all 
+make: `all'를 위해 할 일이 없습니다

@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER sevenseg
+	OPTION supported_peripherals = (sevenseg);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = sevenseg;
+END DRIVER

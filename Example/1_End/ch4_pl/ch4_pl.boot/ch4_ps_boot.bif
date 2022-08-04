@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+	[bootloader]D:\ch4_ps\ch4_ps.boot\zynq_fsbl_0.elf
+	D:\ch4_ps\ch4_ps.boot\system_wrapper.bit
+	D:\ch4_ps\ch4_ps.boot\HelloWorld.elf
+}

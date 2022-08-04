@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.3.1 (64-bit)
+# SW Build 1056140 on Thu Oct 30 17:03:40 MDT 2014
+# IP Build 1028902 on Fri Sep 26 17:35:13 MDT 2014
+# Start of session at: Thu Jan 22 16:35:35 2015
+# Process ID: 3308
+# Log file: D:/work/RPS7000/OV5640/project/DDR/rev1.00_ov5640/project_1.runs/synth_1/top.vds
+# Journal file: D:/work/RPS7000/OV5640/project/DDR/rev1.00_ov5640/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl

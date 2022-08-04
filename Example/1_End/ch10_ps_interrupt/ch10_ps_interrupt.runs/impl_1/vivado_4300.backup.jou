@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.3 (64-bit)
+# SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Thu Sep 04 09:34:06 2014
+# Process ID: 4608
+# Log file: D:/work_edu/ch10_ps_interrupt/ch10_ps_interrupt.runs/impl_1/top.rdi
+# Journal file: D:/work_edu/ch10_ps_interrupt/ch10_ps_interrupt.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace

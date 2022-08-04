@@ -1,0 +1,970 @@
+Vivado Simulator 2013.3
+Time resolution is 1 ps
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+**********************************************************
+* Cadence AXI 3 MASTER BFM                               *
+**********************************************************
+* VERSION NUMBER : 3.0
+**********************************************************
+* CONFIGURATION: 
+* NAME = M_AXI_GP0
+* DATA_BUS_WIDTH = 32
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 12
+* MAX_OUTSTANDING_TRANSACTIONS = 16
+* EXCLUSIVE_ACCESS_SUPPORTED = 1
+* WRITE_BURST_DATA_TRANSFER_GAP = 0
+* RESPONSE_TIMEOUT = 500
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* ERROR_ON_SLVERR = 0
+* ERROR_ON_DECERR = 0
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+**********************************************************
+[0] : *ZYNQ_BFM_INFO : M_AXI_GP0 : Port is DISABLED.
+[0] : M_AXI_GP0 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+**********************************************************
+* Cadence AXI 3 MASTER BFM                               *
+**********************************************************
+* VERSION NUMBER : 3.0
+**********************************************************
+* CONFIGURATION: 
+* NAME = M_AXI_GP1
+* DATA_BUS_WIDTH = 32
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 12
+* MAX_OUTSTANDING_TRANSACTIONS = 16
+* EXCLUSIVE_ACCESS_SUPPORTED = 1
+* WRITE_BURST_DATA_TRANSFER_GAP = 0
+* RESPONSE_TIMEOUT = 500
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* ERROR_ON_SLVERR = 0
+* ERROR_ON_DECERR = 0
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+**********************************************************
+[0] : *ZYNQ_BFM_INFO : M_AXI_GP1 : Port is DISABLED.
+[0] : M_AXI_GP1 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_GP0
+* DATA_BUS_WIDTH = 32
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 6
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 16
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_GP0 : *INFO : MEMORY MODEL MODE DISABLED
+[0] : *ZYNQ_BFM_INFO : S_AXI_GP0 : Port is DISABLED.
+[0] : S_AXI_GP0 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_GP1
+* DATA_BUS_WIDTH = 32
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 6
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 16
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_GP1 : *INFO : MEMORY MODEL MODE DISABLED
+[0] : *ZYNQ_BFM_INFO : S_AXI_GP1 : Port is DISABLED.
+[0] : S_AXI_GP1 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_HP0
+* DATA_BUS_WIDTH = 64
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 6
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 256
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_HP0 : *INFO : MEMORY MODEL MODE DISABLED
+[0] : *ZYNQ_BFM_INFO : S_AXI_HP0 : Port is DISABLED.
+[0] : S_AXI_HP0 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_HP1
+* DATA_BUS_WIDTH = 64
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 6
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 256
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_HP1 : *INFO : MEMORY MODEL MODE DISABLED
+[0] : *ZYNQ_BFM_INFO : S_AXI_HP1 : Port is DISABLED.
+[0] : S_AXI_HP1 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_HP2
+* DATA_BUS_WIDTH = 64
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 6
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 256
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_HP2 : *INFO : MEMORY MODEL MODE DISABLED
+[0] : *ZYNQ_BFM_INFO : S_AXI_HP2 : Port is DISABLED.
+[0] : S_AXI_HP2 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_HP3
+* DATA_BUS_WIDTH = 64
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 6
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 256
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_HP3 : *INFO : MEMORY MODEL MODE DISABLED
+[0] : *ZYNQ_BFM_INFO : S_AXI_HP3 : Port is DISABLED.
+[0] : S_AXI_HP3 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_ACP
+* DATA_BUS_WIDTH = 64
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 3
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 10
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_ACP : *INFO : MEMORY MODEL MODE DISABLED
+Stopped at time : 0 fs : File "d:/work_edu/ch6_pl_7SegLED/ch6_pl_7SegLED.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/processing_system7_bfm_v2_0_axi_slave.v" Line 282
+[0] : *ZYNQ_BFM_INFO : S_AXI_ACP : Port is DISABLED.
+[0] : S_AXI_ACP : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+**********************************************************
+* Cadence AXI 3 MASTER BFM                               *
+**********************************************************
+* VERSION NUMBER : 3.0
+**********************************************************
+* CONFIGURATION: 
+* NAME = M_AXI_GP0
+* DATA_BUS_WIDTH = 32
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 12
+* MAX_OUTSTANDING_TRANSACTIONS = 16
+* EXCLUSIVE_ACCESS_SUPPORTED = 1
+* WRITE_BURST_DATA_TRANSFER_GAP = 0
+* RESPONSE_TIMEOUT = 500
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* ERROR_ON_SLVERR = 0
+* ERROR_ON_DECERR = 0
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+**********************************************************
+[0] : *ZYNQ_BFM_INFO : M_AXI_GP0 : Port is DISABLED.
+[0] : M_AXI_GP0 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+**********************************************************
+* Cadence AXI 3 MASTER BFM                               *
+**********************************************************
+* VERSION NUMBER : 3.0
+**********************************************************
+* CONFIGURATION: 
+* NAME = M_AXI_GP1
+* DATA_BUS_WIDTH = 32
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 12
+* MAX_OUTSTANDING_TRANSACTIONS = 16
+* EXCLUSIVE_ACCESS_SUPPORTED = 1
+* WRITE_BURST_DATA_TRANSFER_GAP = 0
+* RESPONSE_TIMEOUT = 500
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* ERROR_ON_SLVERR = 0
+* ERROR_ON_DECERR = 0
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+**********************************************************
+[0] : *ZYNQ_BFM_INFO : M_AXI_GP1 : Port is DISABLED.
+[0] : M_AXI_GP1 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_GP0
+* DATA_BUS_WIDTH = 32
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 6
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 16
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_GP0 : *INFO : MEMORY MODEL MODE DISABLED
+[0] : *ZYNQ_BFM_INFO : S_AXI_GP0 : Port is DISABLED.
+[0] : S_AXI_GP0 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_GP1
+* DATA_BUS_WIDTH = 32
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 6
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 16
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_GP1 : *INFO : MEMORY MODEL MODE DISABLED
+[0] : *ZYNQ_BFM_INFO : S_AXI_GP1 : Port is DISABLED.
+[0] : S_AXI_GP1 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_HP0
+* DATA_BUS_WIDTH = 64
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 6
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 256
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_HP0 : *INFO : MEMORY MODEL MODE DISABLED
+[0] : *ZYNQ_BFM_INFO : S_AXI_HP0 : Port is DISABLED.
+[0] : S_AXI_HP0 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_HP1
+* DATA_BUS_WIDTH = 64
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 6
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 256
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_HP1 : *INFO : MEMORY MODEL MODE DISABLED
+[0] : *ZYNQ_BFM_INFO : S_AXI_HP1 : Port is DISABLED.
+[0] : S_AXI_HP1 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_HP2
+* DATA_BUS_WIDTH = 64
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 6
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 256
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_HP2 : *INFO : MEMORY MODEL MODE DISABLED
+[0] : *ZYNQ_BFM_INFO : S_AXI_HP2 : Port is DISABLED.
+[0] : S_AXI_HP2 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_HP3
+* DATA_BUS_WIDTH = 64
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 6
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 256
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_HP3 : *INFO : MEMORY MODEL MODE DISABLED
+Stopped at time : 0 fs : File "d:/work_edu/ch6_pl_7SegLED/ch6_pl_7SegLED.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/processing_system7_bfm_v2_0_afi_slave.v" Line 302
+[0] : *ZYNQ_BFM_INFO : S_AXI_HP3 : Port is DISABLED.
+[0] : S_AXI_HP3 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_ACP
+* DATA_BUS_WIDTH = 64
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 3
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 10
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_ACP : *INFO : MEMORY MODEL MODE DISABLED
+[0] : *ZYNQ_BFM_INFO : S_AXI_ACP : Port is DISABLED.
+[0] : S_AXI_ACP : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+**********************************************************
+* Cadence AXI 3 MASTER BFM                               *
+**********************************************************
+* VERSION NUMBER : 3.0
+**********************************************************
+* CONFIGURATION: 
+* NAME = M_AXI_GP0
+* DATA_BUS_WIDTH = 32
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 12
+* MAX_OUTSTANDING_TRANSACTIONS = 16
+* EXCLUSIVE_ACCESS_SUPPORTED = 1
+* WRITE_BURST_DATA_TRANSFER_GAP = 0
+* RESPONSE_TIMEOUT = 500
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* ERROR_ON_SLVERR = 0
+* ERROR_ON_DECERR = 0
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+**********************************************************
+[0] : *ZYNQ_BFM_INFO : M_AXI_GP0 : Port is DISABLED.
+[0] : M_AXI_GP0 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+**********************************************************
+* Cadence AXI 3 MASTER BFM                               *
+**********************************************************
+* VERSION NUMBER : 3.0
+**********************************************************
+* CONFIGURATION: 
+* NAME = M_AXI_GP1
+* DATA_BUS_WIDTH = 32
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 12
+* MAX_OUTSTANDING_TRANSACTIONS = 16
+* EXCLUSIVE_ACCESS_SUPPORTED = 1
+* WRITE_BURST_DATA_TRANSFER_GAP = 0
+* RESPONSE_TIMEOUT = 500
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* ERROR_ON_SLVERR = 0
+* ERROR_ON_DECERR = 0
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+**********************************************************
+[0] : *ZYNQ_BFM_INFO : M_AXI_GP1 : Port is DISABLED.
+[0] : M_AXI_GP1 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_GP0
+* DATA_BUS_WIDTH = 32
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 6
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 16
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_GP0 : *INFO : MEMORY MODEL MODE DISABLED
+Stopped at time : 0 fs : File "d:/work_edu/ch6_pl_7SegLED/ch6_pl_7SegLED.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/processing_system7_bfm_v2_0_axi_slave.v" Line 282
+[0] : *ZYNQ_BFM_INFO : S_AXI_GP0 : Port is DISABLED.
+[0] : S_AXI_GP0 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_GP1
+* DATA_BUS_WIDTH = 32
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 6
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 16
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_GP1 : *INFO : MEMORY MODEL MODE DISABLED
+[0] : *ZYNQ_BFM_INFO : S_AXI_GP1 : Port is DISABLED.
+[0] : S_AXI_GP1 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_HP0
+* DATA_BUS_WIDTH = 64
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 6
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 256
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_HP0 : *INFO : MEMORY MODEL MODE DISABLED
+[0] : *ZYNQ_BFM_INFO : S_AXI_HP0 : Port is DISABLED.
+[0] : S_AXI_HP0 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_HP1
+* DATA_BUS_WIDTH = 64
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 6
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 256
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_HP1 : *INFO : MEMORY MODEL MODE DISABLED
+[0] : *ZYNQ_BFM_INFO : S_AXI_HP1 : Port is DISABLED.
+[0] : S_AXI_HP1 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_HP2
+* DATA_BUS_WIDTH = 64
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 6
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 256
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_HP2 : *INFO : MEMORY MODEL MODE DISABLED
+[0] : *ZYNQ_BFM_INFO : S_AXI_HP2 : Port is DISABLED.
+[0] : S_AXI_HP2 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_HP3
+* DATA_BUS_WIDTH = 64
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 6
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 256
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_HP3 : *INFO : MEMORY MODEL MODE DISABLED
+[0] : *ZYNQ_BFM_INFO : S_AXI_HP3 : Port is DISABLED.
+[0] : S_AXI_HP3 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_ACP
+* DATA_BUS_WIDTH = 64
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 3
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 10
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_ACP : *INFO : MEMORY MODEL MODE DISABLED
+[0] : *ZYNQ_BFM_INFO : S_AXI_ACP : Port is DISABLED.
+[0] : S_AXI_ACP : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+**********************************************************
+* Cadence AXI 3 MASTER BFM                               *
+**********************************************************
+* VERSION NUMBER : 3.0
+**********************************************************
+* CONFIGURATION: 
+* NAME = M_AXI_GP0
+* DATA_BUS_WIDTH = 32
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 12
+* MAX_OUTSTANDING_TRANSACTIONS = 16
+* EXCLUSIVE_ACCESS_SUPPORTED = 1
+* WRITE_BURST_DATA_TRANSFER_GAP = 0
+* RESPONSE_TIMEOUT = 500
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* ERROR_ON_SLVERR = 0
+* ERROR_ON_DECERR = 0
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+**********************************************************
+[0] : *ZYNQ_BFM_INFO : M_AXI_GP0 : Port is DISABLED.
+[0] : M_AXI_GP0 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+**********************************************************
+* Cadence AXI 3 MASTER BFM                               *
+**********************************************************
+* VERSION NUMBER : 3.0
+**********************************************************
+* CONFIGURATION: 
+* NAME = M_AXI_GP0
+* DATA_BUS_WIDTH = 32
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 12
+* MAX_OUTSTANDING_TRANSACTIONS = 16
+* EXCLUSIVE_ACCESS_SUPPORTED = 1
+* WRITE_BURST_DATA_TRANSFER_GAP = 0
+* RESPONSE_TIMEOUT = 500
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* ERROR_ON_SLVERR = 0
+* ERROR_ON_DECERR = 0
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+**********************************************************
+[0] : *ZYNQ_BFM_INFO : M_AXI_GP0 : Port is DISABLED.
+[0] : M_AXI_GP0 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+**********************************************************
+* Cadence AXI 3 MASTER BFM                               *
+**********************************************************
+* VERSION NUMBER : 3.0
+**********************************************************
+* CONFIGURATION: 
+* NAME = M_AXI_GP1
+* DATA_BUS_WIDTH = 32
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 12
+* MAX_OUTSTANDING_TRANSACTIONS = 16
+* EXCLUSIVE_ACCESS_SUPPORTED = 1
+* WRITE_BURST_DATA_TRANSFER_GAP = 0
+* RESPONSE_TIMEOUT = 500
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* ERROR_ON_SLVERR = 0
+* ERROR_ON_DECERR = 0
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+**********************************************************
+[0] : *ZYNQ_BFM_INFO : M_AXI_GP1 : Port is DISABLED.
+[0] : M_AXI_GP1 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_GP0
+* DATA_BUS_WIDTH = 32
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 6
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 16
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_GP0 : *INFO : MEMORY MODEL MODE DISABLED
+[0] : *ZYNQ_BFM_INFO : S_AXI_GP0 : Port is DISABLED.
+[0] : S_AXI_GP0 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs
+*********************************************************
+* Cadence AXI 3 SLAVE BFM                               *
+*********************************************************
+* VERSION NUMBER : 3.0
+*********************************************************
+* CONFIGURATION: 
+* NAME = S_AXI_GP1
+* DATA_BUS_WIDTH = 32
+* ADDRESS_BUS_WIDTH = 32
+* ID_BUS_WIDTH = 6
+* SLAVE_ADDRESS = 0x0
+* SLAVE_MEM_SIZE = 0xffffffff
+* MAX_OUTSTANDING_TRANSACTIONS = 16
+* MEMORY_MODEL_MODE = 0
+* EXCLUSIVE_ACCESS_SUPPORTED = 0
+* READ_BURST_DATA_TRANSFER_GAP = 0
+* WRITE_RESPONSE_GAP = 0
+* READ_RESPONSE_GAP = 0
+* DISABLE_RESET_VALUE_CHECKS = 0
+* CLEAR_SIGNALS_AFTER_HANDSHAKE = 0
+* RESPONSE_TIMEOUT = 500
+* STOP_ON_ERROR = 1
+* CHANNEL_LEVEL_INFO = 0
+* FUNCTION_LEVEL_INFO = 1
+*********************************************************
+[0] : S_AXI_GP1 : *INFO : MEMORY MODEL MODE DISABLED
+[0] : *ZYNQ_BFM_INFO : S_AXI_GP1 : Port is DISABLED.
+[0] : S_AXI_GP1 : *INFO : Setting DISABLE_RESET_VALUE_CHECKS to 1
+FATAL_ERROR: License for using AXI BFM could not be checked out. Please contact a Xilinx FAE to resolve the problem.
+BFM Xilinx: License failed for Xilinx_AXI_BFM, version 2010.100000
+$finish called at time : 0 fs

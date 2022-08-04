@@ -1,0 +1,62 @@
+20:44:17 **** Build of configuration Debug for project TFTLCD ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I../../TFTLCD_bsp/ps7_cortexa9_0/include -I"D:\FINISH\ch12_ps_tftlcd\header" -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:9:0: warning: "XPAR_M_AHB_BASEADDR" redefined [enabled by default]
+ #define XPAR_M_AHB_BASEADDR 0x60000000
+ ^
+In file included from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_printf.h:11:0,
+                 from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/helloworld.c:4:
+../../TFTLCD_bsp/ps7_cortexa9_0/include/xparameters.h:18:0: note: this is the location of the previous definition
+ #define XPAR_M_AHB_BASEADDR 0x43C00000
+ ^
+../src/helloworld.c:10:0: warning: "XPAR_M_AHB_HIGHADDR" redefined [enabled by default]
+ #define XPAR_M_AHB_HIGHADDR 0x6003FFFF
+ ^
+In file included from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_printf.h:11:0,
+                 from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/helloworld.c:4:
+../../TFTLCD_bsp/ps7_cortexa9_0/include/xparameters.h:19:0: note: this is the location of the previous definition
+ #define XPAR_M_AHB_HIGHADDR 0x43C0FFFF
+ ^
+../src/helloworld.c:12:0: warning: "XPAR_M_AHB_1_BASEADDR" redefined [enabled by default]
+ #define XPAR_M_AHB_1_BASEADDR 0x80000000
+ ^
+In file included from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_printf.h:11:0,
+                 from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/helloworld.c:4:
+../../TFTLCD_bsp/ps7_cortexa9_0/include/xparameters.h:23:0: note: this is the location of the previous definition
+ #define XPAR_M_AHB_1_BASEADDR 0x43C10000
+ ^
+../src/helloworld.c:13:0: warning: "XPAR_M_AHB_1_HIGHADDR" redefined [enabled by default]
+ #define XPAR_M_AHB_1_HIGHADDR 0x80000FFF
+ ^
+In file included from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_printf.h:11:0,
+                 from ../../TFTLCD_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../src/helloworld.c:4:
+../../TFTLCD_bsp/ps7_cortexa9_0/include/xparameters.h:24:0: note: this is the location of the previous definition
+ #define XPAR_M_AHB_1_HIGHADDR 0x43C1FFFF
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -I../../TFTLCD_bsp/ps7_cortexa9_0/include -I"D:\FINISH\ch12_ps_tftlcd\header" -c -fmessage-length=0 -MT"src/platform.o" -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: TFTLCD.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../TFTLCD_bsp/ps7_cortexa9_0/lib -o "TFTLCD.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TFTLCD.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TFTLCD.elf  |tee "TFTLCD.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23776	 784512	  22564	 830852	  cad84	TFTLCD.elf
+'Finished building: TFTLCD.elf.size'
+' '
+
+20:44:20 Build Finished (took 3s.804ms)
+

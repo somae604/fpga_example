@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 17:18:21 MST 2014
+# 
+# Start of session at: Wed Jul 08 13:05:30 2015
+# Process ID: 4736
+# Log file: D:/dual_camera_zynq7020/project_1.sdk/webtalk/webtalk.log
+# Journal file: D:/dual_camera_zynq7020/project_1.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
